@@ -1,0 +1,199 @@
+@font-face {
+    font-family: Bahnschrift;
+    src: url(fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF) format("truetype");
+    /*importing the bahnschrift light from the folder*/
+
+}
+
+body{
+    margin:0;
+    /* removes white lines on the left and right */
+    /* other margins and padding 0 is useless for this in width */
+}
+
+ul {
+    list-style-type: none;
+    /* margin: 10px; */
+    /* padding: 40px; */
+}
+
+/* ul.nav_style li a:before{color: red;} */
+
+li{
+    padding-bottom: 10px;
+}
+
+.footer_text_style{
+    font-family: Bahnschrift;
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    position:fixed;
+    right: 0%;
+    bottom: 0%;
+    margin: 10px;
+    padding: 40px;
+}
+
+.footer_text_style:hover {
+    font-family: Bahnschrift;
+    font-size: 60px;
+    font-weight: 900;
+    position:fixed;
+    right: 0%;
+    bottom: 0%;
+    margin: 10px;
+    padding: 40px;
+}
+
+.index_navigation_list_style {
+    position: fixed;
+    width: 30%;
+    border: none;
+    box-sizing: border-box;
+}
+
+.body_style {
+    overflow: hidden;
+    border: none;
+    margin: none;
+    padding: none;
+}
+
+.image_container {
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+.list_text_style {
+    font-family: bahnschrift;
+    /* font-weight: bold; */
+    text-decoration: none;
+    /* color: rgb(29, 27, 27); */
+    color: black;
+    font-size: 40px;
+}
+
+.test{
+    color: black;
+}
+
+
+/* a:active{
+    font-family: bahnschrift;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 60px;
+} */
+/*  active class for a href, did not work at first attemp */
+
+.active {
+    font-family: bahnschrift;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.Pactive {
+    font-family: bahnschrift;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 70px;
+
+/* needs to be in the main because used the same list style */
+}
+
+.list_text_style:hover {
+    font-family: Bahnschrift;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.preview_image_style {
+    object-position: middle;
+    object-fit: fill;
+}
+
+.bg_image_p02 {
+    /* -webkit-transition: background-image 1.2s ease-in-out;
+    transition: background-image 1.2s ease-in-out; */
+    /* transition does not work, why? */
+    background-image: url("images/project_02/first_prototype_3.jpeg");
+    background-size: cover;
+    background-position-x: middle;
+    background-position-y: 80%;
+    background-repeat: no-repeat;
+    background-color: gray;
+    position:relative;
+    z-index:-1;
+    opacity:0.65;
+    /* adding position: relative and z-index: -1 moves this element to the back */
+    width: 100%;
+    height: 100vh;
+    padding: none;
+    margin: none;
+    border: none;
+
+}
+
+.bg_image_p03 {
+    /* -webkit-transition: background-image 1.2s ease-in-out;
+    transition: background-image 1.2s ease-in-out; */
+    background-image: url("images/project_03/prototype_P03_1.jpg");
+    background-size: cover;
+    background-position-x: 40%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-color: gray;
+    position:relative;
+    z-index:-1;
+    opacity:0.65;
+    width: 100%;
+    height: 100vh;
+    padding: none;
+    margin: none;
+    border: none;
+
+}
+.bg_image_TUecomotive {
+    /* -webkit-transition: background-image 1.2s ease-in-out;
+    transition: background-image 1.2s ease-in-out; */
+    background-image: url("images/TUecomotive/semitransparent_eco_preview_2.png");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    background-color: gray;
+    position:relative;
+    z-index:-1;
+    opacity:0.65;
+    width: 100%;
+    height: 100vh;
+    padding: none;
+    margin: none;
+    border: none;
+
+}
+
+.bg_image_PBitje {
+    /* -webkit-transition: background-image 1.2s ease-in-out;
+    transition: background-image 1.2s ease-in-out; */
+    background-image: url("images/project_Bitje/con-01_4.png");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+    background-color: gray;
+    position:relative;
+    z-index:-1;
+    opacity:0.65;
+    width: 100%;
+    height: 100vh;
+    padding: none;
+    margin: none;
+    border: none;
+
+}

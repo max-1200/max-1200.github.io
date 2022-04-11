@@ -1,0 +1,234 @@
+.p02_image_0 {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.p02_image_1 {
+    width: 30vw;
+    float: left;
+}
+
+.p02_image_2 {
+    width: 40vw;
+    height: 900px;
+    /* this heigt ensures that the format of the next picture is not fucked up */
+    float: right;
+    object-fit: cover;
+}
+
+.returnarrow_style {
+    font-family: 'franklin Gothic Medium';
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 70px;
+    /* padding: 25%; */
+    padding-top: 20%;
+    padding-left: 20%;
+    color: black;
+}
+
+.returnarrow_style:hover {
+    font-family: 'Franklin Gothic Medium';
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 80px;
+    padding: 25%;
+    color: black;
+}
+
+.project_nav_style {
+    /* background-color: #a7a7a0; */
+    position: fixed;
+    width: 5%;
+    height: 100%;
+    margin-top: 0.9%;
+    border: none;
+    box-sizing: border-box;
+}
+
+.textbox_p02_image_1 {
+    margin: 2%;
+    height: 700px;
+    /* border-style: solid; */
+}
+
+.header_style_p02_image_1 {
+    font-family: Bahnschrift;
+    font-size: 40px;
+    font-weight: 900;
+    width: 50%;
+    text-align: right;
+    padding-left: 35%;
+    /* works from the beginning of the div which is probably at the start of the image */
+}
+
+.text_style_p02_image_1 {
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 0px;
+    width: 50%;
+    padding-left: 35%;
+    text-align: right;
+    /* border-color: black; */
+    /* border-style: solid; */
+    /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
+}
+
+.p02_navigation_title {
+    position: absolute;
+    font-family: Bahnschrift;
+    font-size: 100px;
+    font-weight: 900;
+    margin-left: 4.5%;
+    margin-top: 1%;
+    /* padding-top: 10%; */
+    text-align: left;
+    /* border-style: solid; */
+    opacity: 0.6;
+}
+
+.textbox_p02_image_2 {
+    margin: 5%;
+    height: 900px;
+    /* height of image and image box should match up */
+    /* border-style: solid; */
+}
+
+.header_style_p02_image_2 {
+    font-family: Bahnschrift;
+    font-size: 40px;
+    font-weight: 900;
+    padding-right: 35%;
+    /* works from the beginning of the div which is probably at the start of the image */
+}
+
+.text_style_p02_image_2 {
+    font-family: arial;
+    font-size: 20px;
+    font-weight: light;
+    padding-right: 35%;
+    width: 50%;
+    /* border-color: black; */
+    /* border-style: solid; */
+    /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
+}
+
+@media only screen and (max-width: 767px) {
+
+    .returnarrow_style {
+        font-family: 'franklin Gothic Medium';
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 50px;
+        /* padding: 25%; */
+        padding-top: 20%;
+        padding-left: 20%;
+        color: black;
+    }
+
+    .p02_navigation_title {
+        position: absolute;
+        font-family: Bahnschrift;
+        font-size: 90px;
+        font-weight: 900;
+        margin-left: 4.5%;
+        margin-top: 5%;
+        text-align: left;
+        /* border-style: solid; */
+        opacity: 0.6;
+        /* border-color: black; */
+        /* border-style: solid; */
+        /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
+    }
+
+    .header_style_p02_image_2 {
+        font-family: Bahnschrift;
+        font-size: 20px;
+        font-weight: 900;
+        padding-right: 35%;
+        /* works from the beginning of the div which is probably at the start of the image */
+    }
+
+    .text_style_p02_image_2 {
+        font-family: arial;
+        font-size: 12px;
+        font-weight: light;
+        padding-right: 35%;
+        width: 50%;
+        /* border-color: black; */
+        /* border-style: solid; */
+        /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
+    }
+
+    .text_style_p02_image_1 {
+        font-family: arial;
+        font-size: 12px;
+        font-weight: light;
+        padding-right: 35%;
+        width: 50%;
+        /* border-color: black; */
+        /* border-style: solid; */
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .returnarrow_style {
+        font-family: 'franklin Gothic Medium';
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 50px;
+        /* padding: 25%; */
+        padding-top: 20%;
+        padding-left: 20%;
+        color: black;
+    }
+
+    .p02_navigation_title {
+        position: absolute;
+        font-family: Bahnschrift;
+        font-size: 160px;
+        font-weight: 900;
+        margin-left: 4.5%;
+        margin-top: 2%;
+        text-align: left;
+        /* border-style: solid; */
+        opacity: 0.6;
+        /* border-color: black; */
+        /* border-style: solid; */
+        /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
+    }
+
+    .header_style_p02_image_2 {
+        font-family: Bahnschrift;
+        font-size: 20px;
+        font-weight: 900;
+        padding-right: 35%;
+        /* works from the beginning of the div which is probably at the start of the image */
+    }
+
+    .text_style_p02_image_2 {
+        font-family: arial;
+        font-size: 15px;
+        font-weight: light;
+        padding-right: 35%;
+        width: 50%;
+        /* border-color: black; */
+        /* border-style: solid; */
+        /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
+    }
+
+    .text_style_p02_image_1 {
+        font-family: arial;
+        font-size: 12px;
+        font-weight: light;
+        padding-right: 35%;
+        width: 50%;
+        /* border-color: black; */
+        /* border-style: solid; */
+    }
+
+}
+

@@ -1,0 +1,6 @@
+.pB_image_top{
+    width: 100%;
+    height: 700px;
+    object-fit:cover;
+    object-position: 50% 30%;
+}

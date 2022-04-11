@@ -1,0 +1,28 @@
+.project_nav_style_about {
+    /* background-color: #a7a7a0; */
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 5%;
+    height: 10%;
+    margin-bottom: 0.9%;
+    border: none;
+    box-sizing: border-box;
+}
+
+.about_navigation_title {
+    position: absolute;
+    font-family: Bahnschrift;
+    font-size: 100px;
+    font-weight: 900;
+    right: 0;
+    bottom: 0;
+    margin-right: 4.5%;
+    margin-bottom: 1%;
+    /* margin-top: 1%; */
+    /* padding-top: 10%; */
+    text-align: left;
+    /* border-style: solid; */
+    opacity: 0.6;
+    color: rgb(43, 43, 43);
+}
