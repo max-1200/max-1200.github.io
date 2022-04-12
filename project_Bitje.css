@@ -4,3 +4,79 @@
     object-fit:cover;
     object-position: 50% 30%;
 }
+
+.pB_image_0{
+    display: block;
+    /* display block makes sure the center works */
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin auto results in the middle */
+    width: 80%;
+    height: auto;
+}
+
+.header_style_pB_image_2 {
+    font-family: Bahnschrift;
+    font-size: 40px;
+    font-weight: 900;
+    width: 20%;
+    margin-left: 10%;
+    text-align: left;
+    /* works from the beginning of the div which is probably at the start of the image */
+}
+
+.text_style_pB_image_2 {
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 0px;
+    width: 20%;
+    margin-left: 10%;
+    text-align: left;
+    /* border-color: black; */
+    /* border-style: solid; */
+    /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
+}
+
+@media only screen and (max-width: 767px) {
+
+    .header_style_pB_image_2 {
+        font-family: Bahnschrift;
+        font-size: 20px;
+        font-weight: 900;
+        padding-right: 35%;
+        /* works from the beginning of the div which is probably at the start of the image */
+    }
+
+    .text_style_pB_image_2 {
+        font-family: arial;
+        font-size: 12px;
+        font-weight: light;
+        padding-right: 35%;
+        width: 50%;
+        /* border-color: black; */
+        /* border-style: solid; */
+        /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .header_style_pB_image_2 {
+        font-family: Bahnschrift;
+        font-size: 20px;
+        font-weight: 900;
+        /* works from the beginning of the div which is probably at the start of the image */
+    }
+
+    .text_style_pB_image_2 {
+        font-family: arial;
+        font-size: 15px;
+        font-weight: light;
+        width: 50%;
+        /* border-color: black; */
+        /* border-style: solid; */
+        /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
+    }
+}
