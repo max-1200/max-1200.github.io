@@ -16,17 +16,18 @@
     height: auto;
 }
 
-.header_style_pB_image_2 {
+.header_style_pB_image {
     font-family: Bahnschrift;
     font-size: 40px;
     font-weight: 900;
     width: 20%;
     margin-left: 10%;
+    margin-top: 5%;
     text-align: left;
     /* works from the beginning of the div which is probably at the start of the image */
 }
 
-.text_style_pB_image_2 {
+.text_style_pB_image {
     font-family: arial;
     font-size: 20px;
     font-weight: 0px;
@@ -40,19 +41,17 @@
 
 @media only screen and (max-width: 767px) {
 
-    .header_style_pB_image_2 {
+    .header_style_pB_image {
         font-family: Bahnschrift;
         font-size: 20px;
         font-weight: 900;
-        padding-right: 35%;
         /* works from the beginning of the div which is probably at the start of the image */
     }
 
-    .text_style_pB_image_2 {
+    .text_style_pB_image {
         font-family: arial;
         font-size: 12px;
         font-weight: light;
-        padding-right: 35%;
         width: 50%;
         /* border-color: black; */
         /* border-style: solid; */
@@ -63,14 +62,14 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
-    .header_style_pB_image_2 {
+    .header_style_pB_image {
         font-family: Bahnschrift;
         font-size: 20px;
         font-weight: 900;
         /* works from the beginning of the div which is probably at the start of the image */
     }
 
-    .text_style_pB_image_2 {
+    .text_style_pB_image {
         font-family: arial;
         font-size: 15px;
         font-weight: light;
