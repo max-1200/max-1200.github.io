@@ -72,7 +72,11 @@ li{
     margin: none;
     padding: none;
     border: none;
-    transition: height 2s;
+    /* transition: transform 2s; */
+}
+
+.image_test{
+    transition: transform 2s;
 }
 
 .list_text_style {
@@ -139,6 +143,7 @@ li{
     padding: none;
     margin: none;
     border: none;
+    transition: 2s ease;
 
 }
 
@@ -159,12 +164,13 @@ li{
     padding: none;
     margin: none;
     border: none;
+    transition: 2s ease;
 
 }
 .bg_image_TUecomotive {
     /* -webkit-transition: background-image 1.2s ease-in-out;
     transition: background-image 1.2s ease-in-out; */
-    background-image: url("images/TUecomotive/semitransparent_eco_preview.png");
+    background-image: url("images/TUecomotive/Semitransparent_eco_preview.png");
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 60%;
@@ -178,6 +184,7 @@ li{
     padding: none;
     margin: none;
     border: none;
+    transition: 2s ease;
 
 }
 
@@ -198,5 +205,6 @@ li{
     padding: none;
     margin: none;
     border: none;
+    transition: 2s ease;
 
 }
