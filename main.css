@@ -19,6 +19,12 @@ ul {
 
 /* ul.nav_style li a:before{color: red;} */
 
+.nav_style{
+    /* transition: 0.6s ease; */
+    /* margin: 0px;
+    padding: 0px; */
+}
+
 li{
     padding-bottom: 10px;
 }
@@ -33,6 +39,7 @@ li{
     bottom: 0%;
     margin: 10px;
     padding: 40px;
+    /* border-style: dotted; */
 }
 
 .footer_text_style:hover {
@@ -44,6 +51,7 @@ li{
     bottom: 0%;
     margin: 10px;
     padding: 40px;
+    transition: 0.2s ease;
 }
 
 .index_navigation_list_style {
@@ -64,6 +72,7 @@ li{
     margin: none;
     padding: none;
     border: none;
+    transition: height 2s;
 }
 
 .list_text_style {
@@ -73,20 +82,13 @@ li{
     /* color: rgb(29, 27, 27); */
     color: black;
     font-size: 40px;
+    padding: 12px;
+    /* border-style: dotted; */
 }
 
 .test{
     color: black;
 }
-
-
-/* a:active{
-    font-family: bahnschrift;
-    text-decoration: none;
-    font-weight: 900;
-    font-size: 60px;
-} */
-/*  active class for a href, did not work at first attemp */
 
 .active {
     font-family: bahnschrift;
@@ -110,6 +112,7 @@ li{
     color: black;
     font-weight: 900;
     font-size: 60px;
+    transition: 0.2s ease-in;
 }
 
 .preview_image_style {
@@ -161,7 +164,7 @@ li{
 .bg_image_TUecomotive {
     /* -webkit-transition: background-image 1.2s ease-in-out;
     transition: background-image 1.2s ease-in-out; */
-    background-image: url("images/TUecomotive/semitransparent_eco_preview_2.png");
+    background-image: url("images/TUecomotive/semitransparent_eco_preview.png");
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 60%;
