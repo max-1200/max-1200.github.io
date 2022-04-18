@@ -75,10 +75,6 @@ li{
     /* transition: transform 2s; */
 }
 
-.image_test{
-    transition: transform 2s;
-}
-
 .list_text_style {
     font-family: bahnschrift;
     /* font-weight: bold; */
