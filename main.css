@@ -124,7 +124,7 @@ li{
     /* -webkit-transition: background-image 1.2s ease-in-out;
     transition: background-image 1.2s ease-in-out; */
     /* transition does not work, why? */
-    background-image: url("images/project_02/first_prototype_3.jpeg");
+    background-image: url("images/project_02/first_prototype_3-min.jpeg");
     background-size: cover;
     background-position-x: middle;
     background-position-y: 80%;
@@ -166,7 +166,7 @@ li{
 .bg_image_TUecomotive {
     /* -webkit-transition: background-image 1.2s ease-in-out;
     transition: background-image 1.2s ease-in-out; */
-    background-image: url("images/TUecomotive/Semitransparent_eco_preview.png");
+    background-image: url("images/TUecomotive/Semitransparent_eco_preview-min.png");
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 60%;

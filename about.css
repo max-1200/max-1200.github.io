@@ -5,7 +5,7 @@
     margin-right: auto;
     /* margin auto results in the middle */
     width: auto;
-    height: 500px
+    height: 500px;
 }
 
 .center {
@@ -28,7 +28,7 @@
 }
 
 .about_navigation_title {
-    position: absolute;
+    position: fixed;
     font-family: Bahnschrift;
     font-size: 100px;
     font-weight: 900;
