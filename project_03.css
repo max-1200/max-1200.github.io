@@ -33,6 +33,26 @@
     color:rgb(43, 43, 43);
 }
 
+.header_style_p03_image {
+    font-family: Bahnschrift;
+    font-size: 35px;
+    font-weight: 900;
+    padding-right: 20%;
+    margin-left: 3%;
+    /* works from the beginning of the div which is probably at the start of the image */
+}
+
+.text_style_p03_image {
+    font-family: arial;
+    font-size: 12px;
+    font-weight: light;
+    padding-right: 35%;
+    width: 50%;
+    /* border-color: black; */
+    /* border-style: solid; */
+    /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
+}
+
 
 @media only screen and (max-width: 767px) {
     .returnarrow_style_P03 {
