@@ -56,7 +56,7 @@ li{
 
 .index_navigation_list_style {
     position: fixed;
-    width: 30%;
+    width: 80%;
     border: none;
     box-sizing: border-box;
 }
@@ -126,7 +126,7 @@ li{
     /* transition does not work, why? */
     background-image: url("images/project_02/first_prototype_3-min.jpeg");
     background-size: cover;
-    background-position-x: middle;
+    background-position-x: 50%;
     background-position-y: 80%;
     background-repeat: no-repeat;
     background-color: gray;
@@ -203,4 +203,48 @@ li{
     border: none;
     transition: 2s ease;
 
+}
+
+@media only screen and (max-width: 767px) {
+    .list_text_style {
+        font-family: bahnschrift;
+        /* font-weight: bold; */
+        text-decoration: none;
+        /* color: rgb(29, 27, 27); */
+        color: black;
+        font-size: 35px;
+        padding: 12px;
+        /* border-style: dotted; */
+    }
+
+    .list_text_style:hover {
+        font-family: Bahnschrift;
+        text-decoration: none;
+        color: black;
+        font-weight: 900;
+        font-size: 55px;
+        transition: 0.2s ease-in;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .list_text_style {
+        font-family: bahnschrift;
+        /* font-weight: bold; */
+        text-decoration: none;
+        /* color: rgb(29, 27, 27); */
+        color: black;
+        font-size: 38px;
+        padding: 12px;
+        /* border-style: dotted; */
+    }
+
+    .list_text_style:hover {
+        font-family: Bahnschrift;
+        text-decoration: none;
+        color: black;
+        font-weight: 900;
+        font-size: 58px;
+        transition: 0.2s ease-in;
+    }
 }
