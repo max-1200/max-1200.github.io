@@ -90,19 +90,6 @@
     /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
 }
 
-.p02_navigation_title {
-    position: absolute;
-    font-family: Bahnschrift;
-    font-size: 100px;
-    font-weight: 900;
-    margin-left: 4.5%;
-    margin-top: 1%;
-    /* padding-top: 10%; */
-    text-align: left;
-    /* border-style: solid; */
-    opacity: 0.6;
-}
-
 .textbox_p02_image_2 {
     margin: 5%;
     height: 900px;
@@ -167,27 +154,12 @@
         color: black;
     }
 
-    .p02_navigation_title {
-        position: absolute;
-        font-family: Bahnschrift;
-        font-size: 80px;
-        font-weight: 900;
-        margin-left: 8%;
-        margin-top: 1%;
-        text-align: left;
-        /* border-style: solid; */
-        opacity: 0.6;
-        /* border-color: black; */
-        /* border-style: solid; */
-        /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
-    }
-
     .header_style_p02_image_2 {
         font-family: Bahnschrift;
         font-size: 20px;
         font-weight: 900;
         padding-right: 35%;
-        padding-left: 2.5%
+        padding-left: 2.5%;
         /* works from the beginning of the div which is probably at the start of the image */
     }
 
@@ -235,21 +207,6 @@
         font-size: 70px;
         padding: 25%;
         color: black;
-    }
-
-    .p02_navigation_title {
-        position: absolute;
-        font-family: Bahnschrift;
-        font-size: 90px;
-        font-weight: 900;
-        margin-left: 6%;
-        margin-top: 1%;
-        text-align: left;
-        /* border-style: solid; */
-        opacity: 0.6;
-        /* border-color: black; */
-        /* border-style: solid; */
-        /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
     }
 
     .header_style_p02_image_2 {
