@@ -1,0 +1,7 @@
+.p03_image_1 {
+    width: 60vw;
+    height: 900px;
+    /* this heigt ensures that the format of the next picture is not fucked up */
+    float: right;
+    object-fit: cover;
+}
