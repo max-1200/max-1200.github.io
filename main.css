@@ -204,6 +204,7 @@ li{
 }
 
 @media only screen and (max-width: 767px) {
+
     .list_text_style {
         font-family: bahnschrift;
         /* font-weight: bold; */
@@ -233,6 +234,7 @@ li{
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
     .list_text_style {
         font-family: bahnschrift;
         /* font-weight: bold; */
