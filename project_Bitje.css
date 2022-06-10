@@ -1,11 +1,22 @@
-.pB_image_top{
+.pB_image_top {
     width: 100%;
     height: 700px;
-    object-fit:cover;
+    object-fit: cover;
     object-position: 50% 30%;
+    }
+
+.background_page_description {
+    margin-top: 0;
+    padding: 0;
+    border:0;
+    /* border:0; */
+    /* border-style:dotted; */
+    background-color: rgb(165, 165, 165);
+
+    height: 400px;
 }
 
-.pB_image_0{
+.pB_image_0 {
     display: block;
     /* display block makes sure the center works */
     margin-top: 1%;
@@ -14,6 +25,29 @@
     /* margin auto results in the middle */
     width: 80%;
     height: auto;
+}
+
+.big_header_style_pB_image {
+    font-family: Bahnschrift;
+    font-size: 55px;
+    font-weight: 900;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align: left;
+    /* works from the beginning of the div which is probably at the start of the image */
+}
+
+.big_text_style_pB_image {
+    font-family: arial;
+    font-size: 30px;
+    font-weight: 0px;
+    width: 30%;
+    margin-left: 10%;
+    text-align: left;
+    /* border-color: black; */
+    /* border-style: solid; */
+    /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
 }
 
 .header_style_pB_image {
@@ -39,7 +73,31 @@
     /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
 }
 
+
 @media only screen and (max-width: 767px) {
+
+    .big_header_style_pB_image {
+        font-family: Bahnschrift;
+        font-size: 40px;
+        font-weight: 900;
+        width: 40%;
+        margin-left: 10%;
+        margin-top: 5%;
+        text-align: left;
+        /* works from the beginning of the div which is probably at the start of the image */
+    }
+    
+    .big_text_style_pB_image {
+        font-family: arial;
+        font-size: 25px;
+        font-weight: 0px;
+        width: 70%;
+        margin-left: 10%;
+        text-align: left;
+        /* border-color: black; */
+        /* border-style: solid; */
+        /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
+    }
 
     .header_style_pB_image {
         font-family: Bahnschrift;
@@ -62,6 +120,29 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
+    .big_header_style_pB_image {
+        font-family: Bahnschrift;
+        font-size: 40px;
+        font-weight: 900;
+        width: 40%;
+        margin-left: 10%;
+        margin-top: 5%;
+        text-align: left;
+        /* works from the beginning of the div which is probably at the start of the image */
+    }
+    
+    .big_text_style_pB_image {
+        font-family: arial;
+        font-size: 28px;
+        font-weight: 0px;
+        width: 70%;
+        margin-left: 10%;
+        text-align: left;
+        /* border-color: black; */
+        /* border-style: solid; */
+        /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
+    }
+
     .header_style_pB_image {
         font-family: Bahnschrift;
         font-size: 20px;
@@ -78,4 +159,5 @@
         /* border-style: solid; */
         /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
     }
+
 }

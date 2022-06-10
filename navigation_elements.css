@@ -59,6 +59,7 @@
 }
 
 .big_gray_returnarrow_style {
+    position:absolute;
     font-family: 'franklin Gothic Medium';
     text-decoration: none;
     font-weight: 600;
