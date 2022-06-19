@@ -90,14 +90,14 @@
     /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
 }
 
-.textbox_p02_image_2 {
+.textbox_p02_image {
     margin: 5%;
     height: 900px;
     /* height of image and image box should match up */
     /* border-style: solid; */
 }
 
-.header_style_p02_image_2 {
+.header_style_p02_image {
     font-family: Bahnschrift;
     font-size: 40px;
     font-weight: 900;
@@ -105,7 +105,7 @@
     /* works from the beginning of the div which is probably at the start of the image */
 }
 
-.text_style_p02_image_2 {
+.text_style_p02_image {
     font-family: arial;
     font-size: 20px;
     font-weight: light;
@@ -154,7 +154,7 @@
         color: black;
     }
 
-    .header_style_p02_image_2 {
+    .header_style_p02_image {
         font-family: Bahnschrift;
         font-size: 20px;
         font-weight: 900;
@@ -163,7 +163,7 @@
         /* works from the beginning of the div which is probably at the start of the image */
     }
 
-    .text_style_p02_image_2 {
+    .text_style_p02_image {
         font-family: arial;
         font-size: 12px;
         font-weight: light;
@@ -174,17 +174,6 @@
         /* border-style: solid; */
         /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
     }
-
-    .text_style_p02_image_1 {
-        font-family: arial;
-        font-size: 12px;
-        font-weight: light;
-        padding-right: 35%;
-        width: 50%;
-        /* border-color: black; */
-        /* border-style: solid; */
-    }
-
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -209,7 +198,7 @@
         color: black;
     }
 
-    .header_style_p02_image_2 {
+    .header_style_p02_image {
         font-family: Bahnschrift;
         font-size: 20px;
         font-weight: 900;
@@ -217,7 +206,7 @@
         /* works from the beginning of the div which is probably at the start of the image */
     }
 
-    .text_style_p02_image_2 {
+    .text_style_p02_image {
         font-family: arial;
         font-size: 15px;
         font-weight: light;
@@ -228,18 +217,5 @@
         /* border-style: solid; */
         /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
     }
-
-    .text_style_p02_image_1 {
-        font-family: arial;
-        font-size: 12px;
-        font-weight: light;
-        padding-right: 35%;
-        width: 50%;
-        /* border-color: black; */
-        /* border-style: solid; */
-    }
-
-
-
 }
 

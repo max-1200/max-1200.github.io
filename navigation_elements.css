@@ -1,4 +1,4 @@
-.big_navigation_title{
+.big_navigation_title {
     position: absolute;
     font-family: Bahnschrift;
     font-size: 100px;
@@ -11,7 +11,7 @@
     opacity: 0.6;
 }
 
-.big_gray_navigation_title{
+.big_gray_navigation_title {
     position: absolute;
     font-family: Bahnschrift;
     font-size: 100px;
@@ -22,10 +22,10 @@
     text-align: left;
     /* border-style: solid; */
     opacity: 0.6;
-    color:rgb(43, 43, 43);
+    color: rgb(43, 43, 43);
 }
 
-.small_navigation_title{
+.small_navigation_title {
     position: absolute;
     font-family: Bahnschrift;
     font-size: 100px;
@@ -59,7 +59,7 @@
 }
 
 .big_gray_returnarrow_style {
-    position:absolute;
+    position: absolute;
     font-family: 'franklin Gothic Medium';
     text-decoration: none;
     font-weight: 600;
@@ -80,91 +80,20 @@
     color: rgb(43, 43, 43);
 }
 
-
-
-@media only screen and (max-width: 767px) {
-    .big_navigation_title{
-        position: absolute;
-        font-family: Bahnschrift;
-        font-size: 80px;
-        font-weight: 900;
-        margin-left: 8%;
-        margin-top: 1%;
-        /* padding-top: 10%; */
-        text-align: left;
-        /* border-style: solid; */
-        opacity: 0.6;
-    } 
-
-    .big_gray_navigation_title {
-        position: absolute;
-        font-family: Bahnschrift;
-        font-size: 80px;
-        font-weight: 900;
-        margin-left: 8%;
-        margin-top: 1%;
-        /* padding-top: 10%; */
-        text-align: left;
-        /* border-style: solid; */
-        opacity: 0.6;
-        color:rgb(43, 43, 43);
-    }
-
-    .small_navigation_title{
-        position: absolute;
-        font-family: Bahnschrift;
-        font-size: 60px;
-        font-weight: 900;
-        margin-left:9.5%;
-        margin-top: 1%;
-        /* padding-top: 10%; */
-        text-align: left;
-        /* border-style: solid; */
-        opacity: 0.6;
-    }
-
-    .big_returnarrow_style {
-        font-family: 'franklin Gothic Medium';
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 50px;
-        /* padding: 25%; */
-        padding-top: 20%;
-        padding-left: 20%;
-        color: black;
-    }
-
-    .big_returnarrow_style:hover {
-        font-family: 'Franklin Gothic Medium';
-        text-decoration: none;
-        font-weight: 900;
-        font-size: 60px;
-        padding: 25%;
-        color: black;
-    }
-
-    .big_gray_returnarrow_style {
-        font-family: 'franklin Gothic Medium';
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 50px;
-        /* padding: 25%; */
-        padding-top: 20%;
-        padding-left: 20%;
-        color: rgb(43, 43, 43);
-    }
-    .big_gray_returnarrow_style:hover {
-        font-family: 'Franklin Gothic Medium';
-        text-decoration: none;
-        font-weight: 900;
-        font-size: 60px;
-        padding: 25%;
-        color: rgb(43, 43, 43);
-    }
+.project_nav_style_about {
+    /* background-color: #a7a7a0; */
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 5%;
+    height: 10%;
+    margin-bottom: 1.9%;
+    border: none;
+    box-sizing: border-box;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .big_navigation_title{
+    .big_navigation_title {
         position: absolute;
         font-family: Bahnschrift;
         font-size: 90px;
@@ -189,10 +118,10 @@
         text-align: left;
         /* border-style: solid; */
         opacity: 0.6;
-        color:rgb(43, 43, 43);
+        color: rgb(43, 43, 43);
     }
 
-    .small_navigation_title{
+    .small_navigation_title {
         position: absolute;
         font-family: Bahnschrift;
         font-size: 80px;
@@ -235,6 +164,7 @@
         padding-left: 20%;
         color: rgb(43, 43, 43);
     }
+
     .big_gray_returnarrow_style:hover {
         font-family: 'Franklin Gothic Medium';
         text-decoration: none;
@@ -242,5 +172,112 @@
         font-size: 70px;
         padding: 25%;
         color: rgb(43, 43, 43);
+    }
+
+    .project_nav_style_about {
+        /* background-color: #a7a7a0; */
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 5%;
+        height: 10%;
+        margin-bottom: 1%;
+        border: none;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .big_navigation_title {
+        position: absolute;
+        font-family: Bahnschrift;
+        font-size: 80px;
+        font-weight: 900;
+        margin-left: 8%;
+        margin-top: 1%;
+        /* padding-top: 10%; */
+        text-align: left;
+        /* border-style: solid; */
+        opacity: 0.6;
+    }
+
+    .big_gray_navigation_title {
+        position: absolute;
+        font-family: Bahnschrift;
+        font-size: 80px;
+        font-weight: 900;
+        margin-left: 8%;
+        margin-top: 1%;
+        /* padding-top: 10%; */
+        text-align: left;
+        /* border-style: solid; */
+        opacity: 0.6;
+        color: rgb(43, 43, 43);
+    }
+
+    .small_navigation_title {
+        position: absolute;
+        font-family: Bahnschrift;
+        font-size: 60px;
+        font-weight: 900;
+        margin-left: 9.5%;
+        margin-top: 1%;
+        /* padding-top: 10%; */
+        text-align: left;
+        /* border-style: solid; */
+        opacity: 0.6;
+    }
+
+    .big_returnarrow_style {
+        font-family: 'franklin Gothic Medium';
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 50px;
+        /* padding: 25%; */
+        padding-top: 20%;
+        padding-left: 20%;
+        color: black;
+    }
+
+    .big_returnarrow_style:hover {
+        font-family: 'Franklin Gothic Medium';
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 60px;
+        padding: 25%;
+        color: black;
+    }
+
+    .big_gray_returnarrow_style {
+        font-family: 'franklin Gothic Medium';
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 50px;
+        /* padding: 25%; */
+        padding-top: 20%;
+        padding-left: 20%;
+        color: rgb(43, 43, 43);
+    }
+
+    .big_gray_returnarrow_style:hover {
+        font-family: 'Franklin Gothic Medium';
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 60px;
+        padding: 25%;
+        color: rgb(43, 43, 43);
+    }
+
+    .project_nav_style_about {
+        /* background-color: #a7a7a0; */
+        /* weird, sort of an extra layer upon the big_gray_return_arrow style which is alsi used in other places and cannot be changed */
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 5%;
+        height: 10%;
+        margin-bottom: -0.5%;
+        border: none;
+        box-sizing: border-box;
     }
 }
