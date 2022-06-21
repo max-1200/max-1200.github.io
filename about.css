@@ -1,13 +1,3 @@
-.about_image_0 {
-    display: block;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    /* margin auto results in the middle */
-    width: auto;
-    height: 500px;
-}
-
 .center {
     margin: auto;
     width: 25%;
