@@ -10,6 +10,7 @@
         content="Hey, welcome to an overview of my projects. I am an industrial designer that focusses on turning ideas into reality. My expertise areas are CAD modeling, electronic prototyping, programming and exploratory sketching">
     <!-- title shows up in the tab of the browser, but is also used by google to rank your page, make it count-->
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="image_elements.css">
     <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script.js"></script>
@@ -43,6 +44,12 @@
                     Project Bitje
                 </a>
             </li>
+            <li class="nav_style">
+                <a class="list_text_style" href="/index.html#Aesthetics_of_interaction_preview" id="Aesthetics_of_interaction_link"
+                    onclick="changeHref_Aoi()">
+                    Aesthetics of interaction
+                </a>
+            </li>
         </ul>
     </div>
 
@@ -64,6 +71,10 @@
         </a>
         <a href="project_Bitje.html">
             <div id="project_Bitje_preview" class="bg_image_PBitje"></div>
+        </a>
+        <a href="Aesthetics_of_interaction.html"> 
+            <!-- the href is where the image links to -->
+            <div id="Aesthetics_of_interaction_preview" class="bg_image_Aoi"></div>
         </a>
         <!-- this works but styling needs to be added to make the transition smooth -->
         <!-- maybe make it in a way that on hover the size of the text changes and the image already changes, but if clicked it goes immediately to the page -->
@@ -137,6 +148,19 @@
             if (condition_PBitje == 'list_text_style active') {
                 document.getElementById('Project_Bitje_link').href
                     = "project_Bitje.html";
+                // document.getElementById("myLink")
+                //     .textContent = "Go to GeeksforGeeks";
+            }
+        }
+
+        function changeHref_Aoi() {
+            location.assign('/index.html#Aesthetics_of_interaction_preview')
+            location.reload();
+            var condition_Aoi = document.getElementById("Aesthetics_of_interaction_link").className;
+            if (condition_Aoi == 'list_text_style active') {
+                document.getElementById('Aesthetics_of_interaction_link').href
+                    = "Aesthetics_of_interaction.html";
+                //document.getElementsByClassName('list_text_style') = "list_text_style_2";
                 // document.getElementById("myLink")
                 //     .textContent = "Go to GeeksforGeeks";
             }
