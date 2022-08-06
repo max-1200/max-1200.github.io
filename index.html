@@ -20,8 +20,15 @@
 
     <div class="index_navigation_list_style">
         <ul id="navigationlist">
-            <li>
+            <!-- <li>
                 <a class="list_text_style" href="/index.html#project_02_preview" id="Project_02_link"
+                    onclick="changeHref_P02()">
+                    Project 02
+                </a>
+            </li> -->
+            <!-- this top version worked but it resulted in the index.html opening on the position of project 02 but the listitem not being highlighted -->
+            <li>
+                <a class="list_text_style" href="/index.html" id="Project_02_link"
                     onclick="changeHref_P02()">
                     Project 02
                 </a>
@@ -45,8 +52,8 @@
                 </a>
             </li>
             <li class="nav_style">
-                <a class="list_text_style" href="/index.html#Aesthetics_of_interaction_preview" id="Aesthetics_of_interaction_link"
-                    onclick="changeHref_Aoi()">
+                <a class="list_text_style" href="/index.html#Aesthetics_of_interaction_preview"
+                    id="Aesthetics_of_interaction_link" onclick="changeHref_Aoi()">
                     Aesthetics of interaction
                 </a>
             </li>
@@ -72,7 +79,7 @@
         <a href="project_Bitje.html">
             <div id="project_Bitje_preview" class="bg_image_PBitje"></div>
         </a>
-        <a href="Aesthetics_of_interaction.html"> 
+        <a href="Aesthetics_of_interaction.html">
             <!-- the href is where the image links to -->
             <div id="Aesthetics_of_interaction_preview" class="bg_image_Aoi"></div>
         </a>
@@ -106,7 +113,7 @@
         //var voorwaarde = document.getElementById()
 
         function changeHref_P02() {
-            location.assign('/index.html#project_02_preview')
+            location.assign('/index.html')
             location.reload();
             var condition_P02 = document.getElementById("Project_02_link").className;
             if (condition_P02 == 'list_text_style active') {
@@ -166,6 +173,8 @@
             }
         }
 
+        // if(window.location = '/index.html'){
+        // window.location = "#project_02_preview"}
 
         // var hrefLocation = window.location.href;
         // //var current = document.get
@@ -175,10 +184,13 @@
         //     console.log(project_03);
         // }
 
+            $('li a').filter(function () {
+                return this.href === location.href;
+            }).addClass('active');
 
-        $('li a').filter(function () {
-            return this.href === location.href;
-        }).addClass('active');
+        // $('li a').filter(function () {
+        //     return this.href != location.href;
+        // }).removeClass('active');
 
 
         // jQuery(function ($){
