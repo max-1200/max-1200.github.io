@@ -28,31 +28,30 @@
             </li> -->
             <!-- this top version worked but it resulted in the index.html opening on the position of project 02 but the listitem not being highlighted -->
             <li>
-                <a class="list_text_style" href="/" id="Project_02_link"
-                    onclick="changeHref_P02()">
+                <a class="list_text_style" href="/index.html" id="Project_02_link" onclick="changeHref_P02()">
                     Project 02
                 </a>
             </li>
             <li class="nav_style">
-                <a class="list_text_style" href="#project_03_preview" id="Project_03_link"
+                <a class="list_text_style" href="/index.html#project_03_preview" id="Project_03_link"
                     onclick="changeHref_P03()">
                     Project 03
                 </a>
             </li>
             <li class="nav_style">
-                <a class="list_text_style" href="#project_TU/ecomotive_preview" id="TU/ecomotive_link"
+                <a class="list_text_style" href="/index.html#project_TU/ecomotive_preview" id="TU/ecomotive_link"
                     onclick="changeHref_TUecomotive()">
                     TU/ecomotive
                 </a>
             </li>
             <li class="nav_style">
-                <a class="list_text_style" href="#project_Bitje_preview" id="Project_Bitje_link"
-                    onclick="changeHref_PBitje()">
-                    Project Bitje
+                <a class="list_text_style" href="/index.html#project_Bits_preview" id="Project_Bits_link"
+                    onclick="changeHref_PBits()">
+                    Project Bits
                 </a>
             </li>
             <li class="nav_style">
-                <a class="list_text_style" href="#Aesthetics_of_interaction_preview"
+                <a class="list_text_style" href="/index.html#Aesthetics_of_interaction_preview"
                     id="Aesthetics_of_interaction_link" onclick="changeHref_Aoi()">
                     Aesthetics of interaction
                 </a>
@@ -60,11 +59,24 @@
         </ul>
     </div>
 
-    <div id="footerId">
+    <ul id="bottom_list_ul" class="bottom_list_style">
+        <li id="bottom_list_li" class="bottom_li_style">
+            <a id="bottom_list_a" class="bottom_a_style" href="sketchbook.html">
+                sketchbook
+            </a>
+        </li>
+        <li id="bottom_list_li" class="bottom_li_style">
+            <a id="bottom_list_a" class="bottom_a_style" href="about.html">
+                Max Crutzen
+            </a>
+        </li>
+    </ul>
+
+    <!-- <div id="footerId">
         <a class="footer_text_style" href="about.html">
             Max Crutzen
         </a>
-    </div>
+    </div> -->
 
     <div class="image_container">
         <a href="project_02.html">
@@ -76,8 +88,8 @@
         <a href="TUecomotive.html">
             <div id="project_TU/ecomotive_preview" class="bg_image_TUecomotive"></div>
         </a>
-        <a href="project_Bitje.html">
-            <div id="project_Bitje_preview" class="bg_image_PBitje"></div>
+        <a href="project_Bits.html">
+            <div id="project_Bits_preview" class="bg_image_PBitje"></div>
         </a>
         <a href="Aesthetics_of_interaction.html">
             <!-- the href is where the image links to -->
@@ -125,7 +137,7 @@
         }
 
         function changeHref_P03() {
-            location.assign('/#project_03_preview')
+            location.assign('/index.html#project_03_preview')
             location.reload();
             var condition_P03 = document.getElementById("Project_03_link").className;
             if (condition_P03 == 'list_text_style active') {
@@ -137,7 +149,7 @@
         }
 
         function changeHref_TUecomotive() {
-            location.assign('/#project_TU/ecomotive_preview')
+            location.assign('/index.html#project_TU/ecomotive_preview')
             location.reload();
             var condition_TUecomotive = document.getElementById("TU/ecomotive_link").className;
             if (condition_TUecomotive == 'list_text_style active') {
@@ -148,20 +160,20 @@
             }
         }
 
-        function changeHref_PBitje() {
-            location.assign('/#project_Bitje_preview')
+        function changeHref_PBits() {
+            location.assign('/index.html#project_Bits_preview')
             location.reload();
-            var condition_PBitje = document.getElementById("Project_Bitje_link").className;
+            var condition_PBitje = document.getElementById("Project_Bits_link").className;
             if (condition_PBitje == 'list_text_style active') {
-                document.getElementById('Project_Bitje_link').href
-                    = "project_Bitje.html";
+                document.getElementById('Project_Bits_link').href
+                    = "project_Bits.html";
                 // document.getElementById("myLink")
                 //     .textContent = "Go to GeeksforGeeks";
             }
         }
 
         function changeHref_Aoi() {
-            location.assign('/#Aesthetics_of_interaction_preview')
+            location.assign('/index.html#Aesthetics_of_interaction_preview')
             location.reload();
             var condition_Aoi = document.getElementById("Aesthetics_of_interaction_link").className;
             if (condition_Aoi == 'list_text_style active') {
@@ -184,9 +196,9 @@
         //     console.log(project_03);
         // }
 
-            $('li a').filter(function () {
-                return this.href === location.href;
-            }).addClass('active');
+        $('li a').filter(function () {
+            return this.href === location.href;
+        }).addClass('active');
 
         // $('li a').filter(function () {
         //     return this.href != location.href;

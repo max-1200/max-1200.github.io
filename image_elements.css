@@ -23,7 +23,7 @@
     width: 100%;
     height: 700px;
     object-fit: cover;
-    object-position: 50% 45%;
+    object-position: 20% 58%;
 }
 
 .about_image_0 {
@@ -82,7 +82,7 @@
 .bg_image_TUecomotive {
     /* -webkit-transition: background-image 1.2s ease-in-out;
     transition: background-image 1.2s ease-in-out; */
-    background-image: url("images/TUecomotive/Semitransparent_eco_preview-min.png");
+    background-image: url("images/TUecomotive/BvOF\ 2022_0720_AHL\ -\ CO2-capturing\ concept\ car\ ZEM\ by\ student\ team\ TUecomotive-min.jpg");
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 60%;

@@ -32,7 +32,32 @@
     /* works from the beginning of the div which is probably at the start of the image */
 }
 
+.header_style_whitish {
+    color: #c5c5c1;
+    font-family: Bahnschrift;
+    font-size: 35px;
+    font-weight: 900;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align: left;
+    /* works from the beginning of the div which is probably at the start of the image */
+}
+
 .text_style {
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 0px;
+    width: 20%;
+    margin-left: 10%;
+    text-align: left;
+    /* border-color: black; */
+    /* border-style: solid; */
+    /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
+}
+
+.text_style_whitish {
+    color: #c5c5c1;
     font-family: arial;
     font-size: 15px;
     font-weight: 0px;
