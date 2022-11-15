@@ -201,6 +201,25 @@ li {
         transition: 0.2s ease-in;
     }
 
+    .bottom_a_style {
+        font-family: Bahnschrift;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+    
+    .bottom_a_style:hover {
+        font-family: Bahnschrift;
+        font-size: 35px;
+        font-weight: 900;
+        /* position: fixed; */
+        /* right: 0%;
+        bottom: 0%;
+        margin: 10px;
+        padding: 40px; */
+        transition: 0.2s ease;
+    }
+
     .index_navigation_list_style {
         position: fixed;
         width: 80%;
