@@ -11,26 +11,6 @@
     object-fit: cover;
 }
 
-.returnarrow_style {
-    font-family: 'franklin Gothic Medium';
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 70px;
-    /* padding: 25%; */
-    padding-top: 20%;
-    padding-left: 20%;
-    color: black;
-}
-
-.returnarrow_style:hover {
-    font-family: 'Franklin Gothic Medium';
-    text-decoration: none;
-    font-weight: 900;
-    font-size: 80px;
-    padding: 25%;
-    color: black;
-}
-
 .project_nav_style {
     /* background-color: #a7a7a0; */
     position: fixed;
@@ -113,25 +93,6 @@
 
 @media only screen and (max-width: 767px) {
 
-    .returnarrow_style {
-        font-family: 'franklin Gothic Medium';
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 50px;
-        /* padding: 25%; */
-        padding-top: 20%;
-        padding-left: 20%;
-        color: black;
-    }
-
-    .returnarrow_style:hover {
-        font-family: 'Franklin Gothic Medium';
-        text-decoration: none;
-        font-weight: 900;
-        font-size: 60px;
-        padding: 25%;
-        color: black;
-    }
 
     .header_style_p02_image {
         font-family: Bahnschrift;
@@ -156,26 +117,6 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    
-    .returnarrow_style {
-        font-family: 'franklin Gothic Medium';
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 60px;
-        /* padding: 25%; */
-        padding-top: 20%;
-        padding-left: 20%;
-        color: black;
-    }
-
-    .returnarrow_style:hover {
-        font-family: 'Franklin Gothic Medium';
-        text-decoration: none;
-        font-weight: 900;
-        font-size: 70px;
-        padding: 25%;
-        color: black;
-    }
 
     .header_style_p02_image {
         font-family: Bahnschrift;

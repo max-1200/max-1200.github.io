@@ -1,3 +1,36 @@
+.returnarrow_style {
+    /* color: white; */
+    font-family: 'franklin Gothic Medium';
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 70px;
+    /* padding: 25%; */
+    padding-top: 20%;
+    padding-left: 20%;
+    color: black;
+}
+
+.returnarrow_style_whitish {
+    /* color: white; */
+    font-family: 'franklin Gothic Medium';
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 70px;
+    /* padding: 25%; */
+    padding-top: 20%;
+    padding-left: 20%;
+    color: #c5c5c1;
+}
+
+.returnarrow_style:hover {
+    font-family: 'Franklin Gothic Medium';
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 80px;
+    padding: 25%;
+    color: black;
+}
+
 .big_navigation_title {
     position: absolute;
     font-family: Bahnschrift;
@@ -25,6 +58,21 @@
     color: rgb(43, 43, 43);
 }
 
+.big_whitish_navigation_title_bar {
+    color:  #c5c5c1;
+    position: absolute;
+    font-family: Bahnschrift;
+    font-size: 100px;
+    font-weight: 900;
+    margin-left: 4.5%;
+    /* margin-top: 1%; */
+    /* padding-top: 10%; */
+    text-align: left;
+    /* border-style: solid; */
+    /* opacity: 0.6; */
+    /* color: rgb(43, 43, 43); */
+}
+
 .small_navigation_title {
     position: absolute;
     font-family: Bahnschrift;
@@ -47,6 +95,17 @@
     padding-top: 20%;
     padding-left: 20%;
     color: black;
+}
+
+.big_returnarrow_style_whitish {
+    font-family: 'franklin Gothic Medium';
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 70px;
+    /* padding: 25%; */
+    padding-top: 20%;
+    padding-left: 20%;
+    color: #c5c5c1;
 }
 
 .big_returnarrow_style:hover {
@@ -93,6 +152,26 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .returnarrow_style {
+        font-family: 'franklin Gothic Medium';
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 60px;
+        /* padding: 25%; */
+        padding-top: 20%;
+        padding-left: 20%;
+        color: black;
+    }
+
+    .returnarrow_style:hover {
+        font-family: 'Franklin Gothic Medium';
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 70px;
+        padding: 25%;
+        color: black;
+    }
+
     .big_navigation_title {
         position: absolute;
         font-family: Bahnschrift;
@@ -188,6 +267,26 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .returnarrow_style {
+        font-family: 'franklin Gothic Medium';
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 50px;
+        /* padding: 25%; */
+        padding-top: 20%;
+        padding-left: 20%;
+        color: black;
+    }
+
+    .returnarrow_style:hover {
+        font-family: 'Franklin Gothic Medium';
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 60px;
+        padding: 25%;
+        color: black;
+    }
+
     .big_navigation_title {
         position: absolute;
         font-family: Bahnschrift;
