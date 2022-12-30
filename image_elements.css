@@ -21,6 +21,28 @@
     object-position: 50% 30%;
 }
 
+.pB_image_0 {
+    display: block;
+    /* display block makes sure the center works */
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin auto results in the middle */
+    width: 80%;
+    height: auto;
+}
+
+.pB_image_1 {
+    display: block;
+    /* display block makes sure the center works */
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin auto results in the middle */
+    width: 68%;
+    height: auto;
+}
+
 .peco_image_top {
     width: 100%;
     height: 700px;
@@ -246,8 +268,8 @@
     .youtube_video_style{
         margin: 1%;
         /* Position: center; */
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
         width: 80%;
         height: 30vh;
     }
