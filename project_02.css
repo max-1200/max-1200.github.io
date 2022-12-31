@@ -11,16 +11,6 @@
     object-fit: cover;
 }
 
-.project_nav_style {
-    /* background-color: #a7a7a0; */
-    position: fixed;
-    width: 5%;
-    height: 100%;
-    margin-top: 0.9%;
-    border: none;
-    box-sizing: border-box;
-}
-
 .textbox_p02_image_1 {
     margin: 2%;
     height: 700px;
