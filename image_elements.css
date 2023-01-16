@@ -143,10 +143,10 @@
 .bg_image_PBitje {
     /* -webkit-transition: background-image 1.2s ease-in-out;
     transition: background-image 1.2s ease-in-out; */
-    background-image: url("images/project_Bitje/con-01_4-min.png");
+    background-image: url("images/project_Bitje/IMG_20221215_154824-min.jpg");
     background-size: cover;
     background-position-x: 50%;
-    background-position-y: 40%;
+    background-position-y:50%;
     background-repeat: no-repeat;
     background-color: gray;
     position:relative;
