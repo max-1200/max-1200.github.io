@@ -43,6 +43,17 @@
     height: auto;
 }
 
+.pB_image_2 {
+    display: block;
+    /* display block makes sure the center works */
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin auto results in the middle */
+    width: 40%;
+    height: auto;
+}
+
 .peco_image_top {
     width: 100%;
     height: 700px;

@@ -15,7 +15,7 @@
     font-weight: 0px;
     width: 30%;
     margin-left: 10%;
-    text-align: left;
+    text-align:left;
     /* border-color: black; */
     /* border-style: solid; */
     /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
@@ -69,41 +69,36 @@
     /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
 }
 
+.text_style_large {
+    font-family: arial;
+    font-size: 15px;
+    /* font-weight: light; */
+    width: 40%;
+    margin-left: 10%;
+    text-align: left;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
     .big_header_style {
-        font-family: Bahnschrift;
         font-size: 40px;
-        font-weight: 900;
-        width: 40%;
-        margin-left: 10%;
-        margin-top: 5%;
-        text-align: left;
         /* works from the beginning of the div which is probably at the start of the image */
     }
-    
+
     .big_text_style {
-        font-family: arial;
         font-size: 28px;
-        font-weight: 0px;
-        width: 70%;
-        margin-left: 10%;
-        text-align: left;
+        width: 40%;
         /* border-color: black; */
         /* border-style: solid; */
         /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
     }
 
     .header_style {
-        font-family: Bahnschrift;
         font-size: 20px;
-        font-weight: 900;
         /* works from the beginning of the div which is probably at the start of the image */
     }
 
     .text_style {
-        font-family: arial;
-        font-size: 15px;
         font-weight: light;
         width: 50%;
         /* border-color: black; */
@@ -111,37 +106,30 @@
         /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
     }
 
+    .text_style_large {
+        font-weight: light;
+        width: 40%;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
 
     .big_header_style {
-        font-family: Bahnschrift;
         font-size: 40px;
-        font-weight: 900;
-        width: 40%;
-        margin-left: 10%;
-        margin-top: 5%;
-        text-align: left;
         /* works from the beginning of the div which is probably at the start of the image */
     }
-    
+
     .big_text_style {
-        font-family: arial;
-        font-size: 25px;
-        font-weight: 0px;
-        width: 70%;
-        margin-left: 10%;
-        text-align: left;
+        font-size: 20px;
+        width: 60%;
         /* border-color: black; */
         /* border-style: solid; */
         /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
     }
 
     .header_style {
-        font-family: Bahnschrift;
         font-size: 20px;
-        font-weight: 900;
         /* works from the beginning of the div which is probably at the start of the image */
     }
 
@@ -155,5 +143,9 @@
         /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
     }
 
-}
+    .text_style_large {
+        font-size: 11px;
+        width: 60%;
+    }
 
+}

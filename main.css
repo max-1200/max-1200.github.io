@@ -156,6 +156,11 @@ li {
     font-size: 60px;
 }
 
+.active:hover {
+    font-weight: 900;
+    font-size: 80px;
+}
+
 .Pactive {
     font-family: bahnschrift;
     text-decoration: none;

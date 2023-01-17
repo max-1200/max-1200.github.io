@@ -29,34 +29,58 @@
                 </a>
             </li> -->
             <!-- this top version worked but it resulted in the index.html opening on the position of project 02 but the listitem not being highlighted -->
-            <li>
+          
+            <!-- <li>
                 <a class="list_text_style" href="/index.html" id="Project_02_link" onclick="changeHref_P02()">
                     Project 02
                 </a>
-            </li>
-            <li class="nav_style">
+            </li> -->
+
+             <!-- <li class="nav_style">
                 <a class="list_text_style" href="/index.html#project_03_preview" id="Project_03_link"
                     onclick="changeHref_P03()">
                     Project 03
                 </a>
             </li>
             <li class="nav_style">
-                <a class="list_text_style" href="/index.html#project_TU/ecomotive_preview" id="TU/ecomotive_link"
+                <a class="list_text_style" href="/index.html#project_TUecomotive_preview" id="TUecomotive_link"
                     onclick="changeHref_TUecomotive()">
                     TU/ecomotive
                 </a>
-            </li>
-            <li class="nav_style">
+            </li> -->
+
+            <!-- <li class="nav_style">
                 <a class="list_text_style" href="/index.html#project_Bits_preview" id="Project_Bits_link"
                     onclick="changeHref_PBits()">
-                    Project Bits
+                    Bits and pieces
                 </a>
-            </li>
-            <li class="nav_style">
+            </li> -->
+
+            <!-- <li class="nav_style">
                 <a class="list_text_style" href="/index.html#Aesthetics_of_interaction_preview"
                     id="Aesthetics_of_interaction_link" onclick="changeHref_Aoi()">
                     Aesthetics of interaction
                 </a>
+            </li> -->
+
+            <li id="Project_02_link">
+                <a class="list_text_style" href="/project_02.html" onmouseover="window.location.hash = '/index.html';">Project 02</a>
+            </li>
+
+            <li id="Project_03_link">
+                <a class="list_text_style" href="/project_03.html" onmouseover="window.location.hash = '/index.html#project_03_preview';">Project 03</a>
+            </li>
+
+            <li id="TUecomotive_link">
+                <a class="list_text_style" href="/TUecomotive.html" onmouseover="window.location.hash = '/index.html#project_TUecomotive_preview';">TU/ecomotive</a>
+            </li>
+
+            <li id="Project_Bits_link">
+                <a class="list_text_style" href="/project_Bits.html" onmouseover="window.location.hash = '/index.html#project_Bits_preview';">Bits and pieces</a>
+            </li>
+
+            <li id="Aesthetics_of_interaction_link">
+                <a class="list_text_style" href="/Aesthetics_of_interaction.html" onmouseover="window.location.hash = '/index.html#Aesthetics_of_interaction_preview';">Aesthetics of interaction</a>
             </li>
         </ul>
     </div>
@@ -93,7 +117,7 @@
             <div id="project_03_preview" class="bg_image_p03"></div>
         </a>
         <a href="TUecomotive.html">
-            <div id="project_TU/ecomotive_preview" class="bg_image_TUecomotive"></div>
+            <div id="project_TUecomotive_preview" class="bg_image_TUecomotive"></div>
         </a>
         <a href="project_Bits.html">
             <div id="project_Bits_preview" class="bg_image_PBitje"></div>
@@ -131,66 +155,67 @@
 
         //var voorwaarde = document.getElementById()
 
-        function changeHref_P02() {
-            location.assign('/index.html')
-            location.reload();
-            var condition_P02 = document.getElementById("Project_02_link").className;
-            if (condition_P02 == 'list_text_style active') {
-                document.getElementById('Project_02_link').href
-                    = "project_02.html";
-                // document.getElementById("myLink")
-                //     .textContent = "Go to GeeksforGeeks";
-            }
-        }
+        // function changeHref_P02() {
+        //     location.assign('/index.html')
+        //     location.reload();
+        //     var condition_P02 = document.getElementById("Project_02_link").className;
+        //     if (condition_P02 == 'list_text_style active') {
+        //         document.getElementById('Project_02_link').href
+        //             = "project_02.html";
+        //         // document.getElementById("myLink")
+        //         //     .textContent = "Go to GeeksforGeeks";
+        //     }
+        // }
 
-        function changeHref_P03() {
-            location.assign('/index.html#project_03_preview')
-            location.reload();
-            var condition_P03 = document.getElementById("Project_03_link").className;
-            if (condition_P03 == 'list_text_style active') {
-                document.getElementById('Project_03_link').href
-                    = "project_03.html";
-                // document.getElementById("myLink")
-                //     .textContent = "Go to GeeksforGeeks";
-            }
-        }
+        // function changeHref_P03() {
+        //     location.assign('/index.html#project_03_preview')
+        //     location.reload();
+        //     var condition_P03 = document.getElementById("Project_03_link").className;
+        //     if (condition_P03 == 'list_text_style active') {
+        //         document.getElementById('Project_03_link').href
+        //             = "project_03.html";
+        //         // condition_P03.class.font-size = 80px; 
+        //         // document.getElementById("myLink")
+        //         //     .textContent = "Go to GeeksforGeeks";
+        //     }
+        // }
 
-        function changeHref_TUecomotive() {
-            location.assign('/index.html#project_TU/ecomotive_preview')
-            location.reload();
-            var condition_TUecomotive = document.getElementById("TU/ecomotive_link").className;
-            if (condition_TUecomotive == 'list_text_style active') {
-                document.getElementById('TU/ecomotive_link').href
-                    = "TUecomotive.html";
-                // document.getElementById("myLink")
-                //     .textContent = "Go to GeeksforGeeks";
-            }
-        }
+        // function changeHref_TUecomotive() {
+        //     location.assign('/index.html#project_TUecomotive_preview')
+        //     location.reload();
+        //     var condition_TUecomotive = document.getElementById("TUecomotive_link").className;
+        //     if (condition_TUecomotive == 'list_text_style active') {
+        //         document.getElementById('TUecomotive_link').href
+        //             = "TUecomotive.html";
+        //         // document.getElementById("myLink")
+        //         //     .textContent = "Go to GeeksforGeeks";
+        //     }
+        // }
 
-        function changeHref_PBits() {
-            location.assign('/index.html#project_Bits_preview')
-            location.reload();
-            var condition_PBitje = document.getElementById("Project_Bits_link").className;
-            if (condition_PBitje == 'list_text_style active') {
-                document.getElementById('Project_Bits_link').href
-                    = "project_Bits.html";
-                // document.getElementById("myLink")
-                //     .textContent = "Go to GeeksforGeeks";
-            }
-        }
+        // function changeHref_PBits() {
+        //     location.assign('/index.html#project_Bits_preview')
+        //     location.reload();
+        //     var condition_PBitje = document.getElementById("Project_Bits_link").className;
+        //     if (condition_PBitje == 'list_text_style active') {
+        //         document.getElementById('Project_Bits_link').href
+        //             = "project_Bits.html";
+        //         // document.getElementById("myLink")
+        //         //     .textContent = "Go to GeeksforGeeks";
+        //     }
+        // }
 
-        function changeHref_Aoi() {
-            location.assign('/index.html#Aesthetics_of_interaction_preview')
-            location.reload();
-            var condition_Aoi = document.getElementById("Aesthetics_of_interaction_link").className;
-            if (condition_Aoi == 'list_text_style active') {
-                document.getElementById('Aesthetics_of_interaction_link').href
-                    = "Aesthetics_of_interaction.html";
-                //document.getElementsByClassName('list_text_style') = "list_text_style_2";
-                // document.getElementById("myLink")
-                //     .textContent = "Go to GeeksforGeeks";
-            }
-        }
+        // function changeHref_Aoi() {
+        //     location.assign('/index.html#Aesthetics_of_interaction_preview')
+        //     location.reload();
+        //     var condition_Aoi = document.getElementById("Aesthetics_of_interaction_link").className;
+        //     if (condition_Aoi == 'list_text_style active') {
+        //         document.getElementById('Aesthetics_of_interaction_link').href
+        //             = "Aesthetics_of_interaction.html";
+        //         //document.getElementsByClassName('list_text_style') = "list_text_style_2";
+        //         // document.getElementById("myLink")
+        //         //     .textContent = "Go to GeeksforGeeks";
+        //     }
+        // }
 
         // if(window.location = '/index.html'){
         // window.location = "#project_02_preview"}
@@ -203,9 +228,38 @@
         //     console.log(project_03);
         // }
 
-        $('li a').filter(function () {
-            return this.href === location.href;
-        }).addClass('active');
+        $("#Project_02_link").hover(function () {
+            window.location.hash = "";
+        });
+
+        $("#Project_03_link").hover(function () {
+            window.location.hash = "project_03_preview";
+        });
+
+        $("#TUecomotive_link").hover(function () {
+            window.location.hash = "#project_TUecomotive_preview";
+        });
+
+        $("#Project_Bits_link").hover(function () {
+            window.location.hash = "#project_Bits_preview";
+        });
+
+        $("#Aesthetics_of_interaction_link").hover(function () {
+            window.location.hash = "#Aesthetics_of_interaction_preview";
+        });
+
+
+        $("#project_03_link").click(function () {
+            window.location.href = "/project_03.html";
+        });
+
+        $("#navigationlist").width($("#navigationlist").textWidth());
+        
+        //maybe this only works when there is no styling determining this, and there definitely is. 
+
+        // $('li a').filter(function () {
+        //     return this.href === location.href;
+        // }).addClass('active');
 
         // $('li a').filter(function () {
         //     return this.href != location.href;

@@ -152,6 +152,8 @@
 
     .about_navigation_title {
         margin-right: 4.5%;
+        font-size: 40px;
+
     }
 
     .big_returnarrow_style:hover {
@@ -184,6 +186,7 @@
     .about_navigation_title {
         margin-right: 5.5%;
         margin-bottom: 0.6%;
+        font-size: 40px;
     }
 
     .big_returnarrow_style {
@@ -218,7 +221,7 @@
     }
 
     .about_navigation_title {
-        font-size: 60px;
+        font-size: 0px;
         margin-right: 9%;
         margin-bottom: 0.5%;
     }
