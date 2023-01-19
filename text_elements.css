@@ -1,3 +1,12 @@
+.text_container_ea {
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+}
+
 .big_header_style {
     font-family: Bahnschrift;
     font-size: 55px;
@@ -9,16 +18,36 @@
     /* works from the beginning of the div which is probably at the start of the image */
 }
 
+.big_header_style_ea {
+    font-family: Bahnschrift;
+    font-size: 55px;
+    font-weight: 900;
+    /* width: 40%;
+    margin-left: 10%; */
+    margin-top: 5%;
+    text-align: left;
+    /* works from the beginning of the div which is probably at the start of the image */
+}
+
 .big_text_style {
     font-family: arial;
     font-size: 30px;
     font-weight: 0px;
-    width: 30%;
+    width: 40%;
     margin-left: 10%;
-    text-align:left;
+    text-align: left;
     /* border-color: black; */
     /* border-style: solid; */
     /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
+}
+
+.big_text_style_ea {
+    font-family: arial;
+    font-size: 30px;
+    font-weight: 0px;
+    width: 100%;
+    /* margin-left: 10%; */
+    text-align: left;
 }
 
 .header_style {
@@ -56,6 +85,15 @@
     /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
 }
 
+.text_style_small{
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 0px;
+    text-align: right;
+    margin-bottom: 1%;
+    font-style: italic;
+}
+
 .text_style_whitish {
     color: #c5c5c1;
     font-family: arial;
@@ -77,6 +115,25 @@
     margin-left: 10%;
     text-align: left;
 }
+
+.text_style_large_ea {
+    font-family: arial;
+    font-size: 18px;
+    /* font-weight: light; */
+    /* width: 40%;
+    margin-left: 10%; */
+    text-align: left;
+}
+
+/* .text_border {
+    font-family: Bahnschrift;
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: -1px 1px 0 darkgray,
+        1px 1px 0 darkgray,
+        1px -1px 0 darkgray,
+        -1px -1px 0 darkgray;
+} */
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
