@@ -80,9 +80,20 @@
     width: 20%;
     margin-left: 10%;
     text-align: left;
+
+    
     /* border-color: black; */
     /* border-style: solid; */
     /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
+}
+
+.text_style_ea{
+    font-family: arial;
+    width: 40%; 
+    font-size: 18px; 
+    margin-bottom:5%;
+    margin-left: 10%;
+    text-align: left;
 }
 
 .text_style_small{
@@ -147,7 +158,7 @@
     }
 
     .big_text_style {
-        font-size: 25px;
+        font-size: 20px;
         width: 40%;
         /* border-color: black; */
         /* border-style: solid; */
@@ -171,6 +182,14 @@
         /* border-color: black; */
         /* border-style: solid; */
         /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
+    }
+
+    .text_style_ea{
+        font-size: 14px; 
+    }
+
+    .text_style_whitish {
+        font-size: 15px;
     }
 
     .text_style_large {
@@ -224,6 +243,17 @@
         /* border-style: solid; */
         /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */
     }
+
+    .text_style_ea{
+        font-size: 11px; 
+        width:80%;
+    }
+
+    .text_style_whitish {
+        font-size: 11px;
+        width: 80%;
+    }
+    
 
     .text_style_large {
         font-size: 11px;
