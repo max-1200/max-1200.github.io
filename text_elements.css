@@ -216,7 +216,7 @@
 
     .big_text_style {
         font-size: 15px;
-        width: 90%;
+        width: 85%;
         /* border-color: black; */
         /* border-style: solid; */
         /* use font stretch to set different levels of font sizes to make sure it wont be super massive on mobile devices */

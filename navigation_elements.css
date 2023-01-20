@@ -53,7 +53,7 @@
     font-family: Bahnschrift;
     font-size: 100px;
     font-weight: 900;
-    margin-left: 4.5%;
+    margin-left:6%;
     margin-top: 1%;
     /* padding-top: 10%; */
     text-align: left;
@@ -152,6 +152,10 @@
         margin-left: 5%;
     }
 
+    .big_whitish_navigation_title_bar {
+        margin-left:6%;
+    }
+
     .about_navigation_title {
         margin-right: 4.5%;
         font-size: 40px;
@@ -185,6 +189,12 @@
         margin-left: 7%;
     }
 
+    .big_whitish_navigation_title_bar {
+        /* color:  #c5c5c1; */
+        font-size: 90px;
+        margin-left: 9.5%;
+    }
+
     .about_navigation_title {
         margin-right: 5.5%;
         margin-bottom: 0.6%;
@@ -193,6 +203,14 @@
 
     .big_returnarrow_style {
         font-size: 60px;
+    }
+
+    .big_returnarrow_style_whitish {
+        font-size: 60px;
+    }
+
+    .big_returnarrow_style_whitish:hover {
+        font-size: 70px;
     }
 
     .big_returnarrow_style:hover {
@@ -222,6 +240,13 @@
         margin-left: 8%;
     }
 
+    .big_whitish_navigation_title_bar {
+        /* color:  #c5c5c1; */
+        font-size: 50px;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+
     .about_navigation_title {
         font-size: 0px;
         margin-right: 9%;
@@ -238,6 +263,15 @@
         font-size: 60px;
         padding: 25%;
     }
+
+    .big_returnarrow_style_whitish {
+        font-size: 50px;
+    }
+
+    .big_returnarrow_style_whitish:hover {
+        font-size: 60px;
+    }
+
 
     .big_returnarrow_style_bottom {
         position: fixed;
