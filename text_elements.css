@@ -136,6 +136,15 @@
     text-align: left;
 }
 
+.text_style_large_v {
+    font-family: arial;
+    font-size: 18px;
+    /* font-weight: light; */
+    width: 40%;
+    margin-left: 10%;
+    text-align: left;
+}
+
 /* .text_border {
     font-family: Bahnschrift;
     font-size: 60px;
@@ -201,6 +210,11 @@
         font-size: 14px;
     }
 
+    .text_style_large_v {
+        font-size: 14px;
+        width: 40%;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -261,12 +275,15 @@
     }
 
     .text_style_large_ea {
-        font-family: arial;
         font-size: 11px;
         /* font-weight: light; */
         /* width: 40%;
         margin-left: 10%; */
         text-align: left;
+    }
+
+    .text_style_large_v {
+        font-size: 11px;
     }
 
 }
