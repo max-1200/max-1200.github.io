@@ -64,4 +64,14 @@
   top: 0;
   left: 0;
   z-index: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .description_container {
+    display: block;
+  }
+  .description_container_vertical {
+    width: 100%;
+    display: block;
+  }
 }/*# sourceMappingURL=page_elements.css.map */

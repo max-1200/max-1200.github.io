@@ -99,7 +99,7 @@ function changeprojectbuttontext() {
 
 
   if (pbap_class.length > 0) {
-    projects_nav.textContent = "Project bits and pieces";
+    projects_nav.textContent = "Project Bits and pieces";
     projects_nav.href = "/project_bits_and_pieces.html";
   }
 

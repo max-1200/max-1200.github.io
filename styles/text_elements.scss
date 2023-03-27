@@ -146,6 +146,7 @@
 
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+   
     .about_title_heading {
         //font-weight: bold;
         font-size: 100px;
@@ -193,6 +194,77 @@
 
 @media only screen and (max-width: 767px) {
 
+    .nav_text {
+        font-weight: 200;
+        font-style: bold;
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 7px;
+        //I used pixels instead of percentages for the padding because otherwise the alignment with the middle got messed up
+    }
+    
+    .nav_text:hover {
+        //background-color: rgba(0, 0, 0);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 7px;
+    }
+
+    .about_title_heading {
+        //font-weight: bold;
+        font-size: 50px;
+        //color: rgba(255, 184, 43, 1);
+    }
+
+    .project_title_heading {
+        //font-weight: bold;
+        font-size: 50px;
+        //color: rgba(255, 184, 43, 1);
+    }
+
+    .subscript_text {
+        font-size: 14px;
+    }
+
+    .project_summary_heading {
+        font-size: 18px;
+    }
+
+    .project_summary_text {
+        font-size:14px;
+    
+    }
+
+    .roles_summary_heading{
+        width: 100%;
+        margin-left: 0%;
+        text-align:left;
+        left: 0%;
+        font-size: 18px;
+    }
+    
+    .roles_summary_text{
+        width: 100%;
+        margin-left: 0%;
+        text-align:left;
+        left: 0%;
+        font-size: 14px;
+    }
+
+    .image_description_heading {
+        width:100%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+        
+    
+    .image_description_text{
+        width: 100%;
+        font-size:14px;
+    }
 
 }
 

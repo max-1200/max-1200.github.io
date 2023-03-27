@@ -137,4 +137,6 @@ opacity van 0 naar 1 gaat. Het script swapt va previews. zie code hier onder.
 
 -ga na welke classes nog nodig zijn op de hoofdpagina, gewoon 1 voor 1 afgaan vooral de navbar styling is nu heel verwarrend
 
--verander text styling naar verticaal voor telefoon formaat.
+-verander text styling naar verticaal voor telefoon formaat.                                                                                                                                    CHECK
+
+-
