@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "Bahnschrift";
+    src: url(fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF) format("truetype");
+    /*importing the bahnschrift light from the folder*/
+}
+
+:root {
+    --light_text_color: rgba(165, 164, 164, 1);
+    --nav_element_background_color: rgba(255, 255, 255, 0.6);
+    //--dark_text_color: rgba(183, 170, 146, 0.5);
+    --dark_text_color: rgba(91, 8, 0, 1);
+    --main_navbar_color_dark:: rgba(0, 0, 0, 0.6);
+    
+}
+.nav_text {
+    text-decoration: none;
+    font-family: "Bahnschrift", sans-serif;
+    font-weight: 200;
+    // font-family: Arial;
+    font-style: bold;
+    font-size: 25px;
+    color: rgba(165, 164, 164, 1);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.5s ease-in-out 0.1s;
+    transition: color 0.1s ease-in-out 0.01s;
+    //I used pixels instead of percentages for the padding because otherwise the alignment with the middle got messed up
+}
+
+.nav_text:hover {
+    //background-color: rgba(0, 0, 0);
+    color: black;
+    background-color: var(--nav_element_background_color);
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.about_title_heading {
+    margin-top: 0%;
+    margin-left: 0;
+    padding-left: 0;
+    text-decoration: none;
+    font-family: "Bahnschrift", sans-serif;
+    //font-weight: bold;
+    font-size: 140px;
+    //color: rgba(255, 184, 43, 1);
+}
+
+.project_title_heading {
+    margin-top: 5.2%;
+    margin-left: 0;
+    padding-left: 0;
+    text-decoration: none;
+    font-family: "Bahnschrift", sans-serif;
+    //font-weight: bold;
+    font-size: 140px;
+    //color: rgba(255, 184, 43, 1);
+}
+
+.subscript_text {
+    margin-top: 2%;
+    font-family: arial;
+    font-size: 20px;
+}
+
+
+.project_summary_heading {
+    width: 100%;
+    margin-top: 4%;
+    font-family: arial;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+.project_summary_text {
+    width: 100%;
+    margin-top: 0.5%;
+    font-family: arial;
+    font-size:20px;
+    text-align:justify;
+    //text-align: left;
+
+}
+
+.roles_summary_heading{
+    width: 70%;
+    margin-left: 30%;
+    text-align:left;
+    left: 0%;
+    margin-top: 4%;
+    font-family: arial;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.roles_summary_text{
+    width: 70%;
+    //!!! This needs to be 30 otherwise it does not match the hundred percent and it will overflow
+    margin-left: 30%;
+    text-align:left;
+    left: 0%;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.image_description_heading {
+    width: 100%;
+    //margin-bottom: 0.5%;
+    font-family: arial;
+    font-size: 22px;
+    font-weight: bold;
+}
+    
+
+.image_description_text{
+    width:50%;
+    //margin-top: 0.5%;
+    //margin-bottom: 5%;
+    font-family: arial;
+    font-size:20px;
+    //text-align:justify;
+    text-align: justify;
+}
+
+.easater_egg_text {
+    margin-top: 2%;
+    font-family: arial;
+    font-size: 3px;
+}
+
+.light{
+    color: var(--light_text_color);
+}
+
+.dark{
+    color: var(--dark_text_color);
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .about_title_heading {
+        //font-weight: bold;
+        font-size: 100px;
+        //color: rgba(255, 184, 43, 1);
+    }
+
+    .project_title_heading {
+        //font-weight: bold;
+        font-size: 100px;
+        //color: rgba(255, 184, 43, 1);
+    }
+
+    .subscript_text {
+        font-size: 14px;
+    }
+
+    .project_summary_heading {
+        font-size: 18px;
+    }
+
+    .project_summary_text {
+        font-size:14px;
+    
+    }
+
+    .roles_summary_heading{
+        font-size: 18px;
+    }
+    
+    .roles_summary_text{
+        font-size: 14px;
+    }
+
+    .image_description_heading {
+        font-size: 18px;
+        font-weight: bold;
+    }
+        
+    
+    .image_description_text{
+        font-size:14px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+
+}
+

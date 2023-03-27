@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "Bahnschrift";
+    src: url(fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF) format("truetype");
+    /*importing the bahnschrift light from the folder*/
+}
+
+:root {
+    --main_navbar_color_dark: rgba(0, 0, 0, 0.6);
+}
+
+.preview {
+    //just for te identification of the div for the slideshow
+    // width: 100%;
+    // height: 100%;
+    // opacity: 0;
+    // position: absolute;
+    // transition-delay: 3s;
+    // z-index: 1;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.active {
+    opacity: 1;
+    z-index: 0;
+}
+
+.preview_image_style {
+    opacity: 0.65;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    // object-position: 0px -200px;
+    object-fit: cover; //ensures the object does not stretchto fit the div but crops in
+    padding: 0;
+    margin: 0;
+    border: none;
+    // transition: 2s ease;
+    size: cover;
+}
+
+// .navigation_arrow:hover {
+//     position: fixed;
+//     top: 80%;
+//     left: 50%;
+//     width: 0;
+//     height: 0;
+//     border-top-left-radius: 10px;
+//     border-bottom-left-radius: 10px;
+//     border-bottom-right-radius: 10px;
+//     border-left: 50px solid transparent;
+//     border-right: 50px solid transparent;
+
+//     border-top: 60px solid black;
+// }
+
+.triangle {
+    position: fixed;
+    top: 90%;
+    left: calc(50% - 1em);
+    background-color: black;
+    text-align: left;
+    transform: scale(0.1);
+    opacity: 0.8;
+    z-index: 2;
+    cursor: pointer;
+}
+.triangle:hover {
+    transform: scale(1.11); /* Increase the scale by 10% on hover */
+}
+.triangle:before,
+.triangle:after {
+    content: "";
+    position: absolute;
+    background-color: inherit;
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+    width: 2em;
+    height: 2em;
+    border-top-right-radius: 50%;
+}
+
+.triangle {
+    transform: rotate(120deg) skewX(-30deg) scale(1, 0.866);
+}
+.triangle:before {
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707) translate(0, -50%);
+}
+.triangle:after {
+    transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+}
+
+.triangle_style{
+    top:90%;
+    left: calc(50% - 25px) ;
+    z-index: 10;
+    rotate:60deg;
+    font-size: 50px;
+    color: black;
+    position: fixed;
+    background: none;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.triangle_style:hover{
+    top:88%;
+    left: calc(50% - 40px) ;
+    z-index: 10;
+    rotate:60deg;
+    font-size: 80px;
+    color: black;
+    position: fixed;
+    background: none;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.nav_bar_container {
+    //left: 8.3333%;
+    // top: 8.3333%;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px 25px 25px 25px;
+    position: relative; //if fixed is used this will cause the bar to
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ordering_container_nav {
+    width: 88%;
+    //height: 100%;
+    top: 0px;
+    left: 0px;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 6%;
+    position: absolute;
+    z-index: 2;
+}
+
+.nav_bar_light {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.nav_bar_dark {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav_projects_style {
+    position: absolute;
+    top: 10%;
+    left: 0.4%;
+    //padding is already added to the nav_text element. Adding it here again is not useful
+}
+
+.nav_about_style {
+    position: absolute;
+    top: 10%;
+    right: 0.4%;
+}
+
+.nav_media_style {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}

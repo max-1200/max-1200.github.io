@@ -1,0 +1,22 @@
+.wide_image_element{
+    display: block;
+    /* display block makes sure the center works */
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin auto results in the middle */
+    width: 100%;
+    height: auto;
+}
+
+.extra_margin_top_image_element{
+    margin-top: 10%;
+}
+
+.extralarge_margin_top_image_element{
+    margin-top: 18%;
+}
+
+.extra_margin_image_element_between{
+    margin-top: 4%;
+}

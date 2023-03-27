@@ -1,0 +1,140 @@
+scss 
+
+Scss is just css with aditional functionality and slightly different writing sometimes. This will be compiled into css by either a compiler you can install through node
+But you can also use the compiler in vs code that "watches the sass" in the taskbar on the bottom. With this on it will update the css file automatically. 
+
+The additional files, the text_elements.css.map and the text_elements.scss do not contribute to loading time neccessarily because the css file is the only thing that will
+load for the user. 
+
+Add the sutomatic sliding code to the existign script.
+
+The triangle should be a side quest focus on make the navigation menu and navigation list with preview text below this to work. 
+
+fix animation type
+
+border-radius should have two elements to be equal, do not use percentages since this will be way more for one line than for the other. keep in mind for the triangle 
+navigation arrow
+
+-things to do note style fromm now on!!!!!!!!!!!!!!!!!!!!!!
+
+-make different navbar sizes and border-radiusses for various screen sizes 
+
+-choose between either the navbar that floats in view all the time, or the navbar that moves up with the page and then having a pageup arrow in view constantly. 
+Which moves you back to the main view. Look up how this would  work.
+https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -> easy example. shouldn't be too much of a hassle. 
+
+rethink the container styles, some won't be necessary anymore. 
+
+-figure out why the bahnschrift font family does not work, it does work now, but why? I should have closed and opened the browser probably!                                                     CHECK
+
+-the meta text in the html setup should be different for every page!
+
+*thought thing, button surrounding becomes lighter when hovered, because you are closer to the next step the lighter, a right mental model!!
+
+-figure out the clusterfuck of the dropdonw list                                                                                                                                                CHECK
+
+the problem with the hashtag has to do with the navbar or something in the html coding. doesn't happen to the empty media.html it was in the dropdown, now removed from bar
+works without doing it.
+
+-maybe or def move project selection of the page so dropdown wont be needed anymore 
+move this to the main page                                                                                                                                                                      CHECK
+
+*maybe have the projects bar move into the right and cover the whole bar with project names, this limits the amount of projects to the name and bar size but for this a solution
+can be found, maybe with an arrow you can click to scroll from left to right. LAter work for when the site is already running!                                                                      
+
+-splay around with the colors of the bar, maybe white and invert the colors when hovering. think of smartphones too of course, no hover
+
+-make various color schemes especially a dark and a light one, maybe make the website adapt to user preference??? prb not 
+USE THE PUMA YELLOW.
+
+-add the to the top arrow
+
+-figure out if there can be a variable for equalizing the margin at the top of the project title heading and the percentage of space between the body adn nav bar.
+something like convert percentage > pixels = margintop for class blablabla 
+
+use a very small pixel size to hide easter eggs on the website! FUNNY and clever. font-size: 2px;
+
+
+!!!! If I would want to split up the text for project and roles differently I would have the description_vertival_container element out of two seperate ones. This can be done 
+Without breaking anything add this code in page_elements.scss
+.description_container_vertical {
+    width: 50%;
+    //makes sure the two elements, project description and role description are equally divided before other styling is added
+    display: flex;
+    flex-direction: column;
+}
+
+-solution for the rescaling at different media solutions, start doing that already for everything. DOING IT IN THE END WILL BE WORSE< BECAUSE OF RETHINKING HOW STUFF WORKED
+
+-make a dark background for project 3 which can than be the standard for other pages where this works better too.
+
+-various top margins to make sure the image will always be just out of first view. 
+
+-rethink if the background colors and text colors should not just be renamed for the project page. because then you can edit them easily, otherwise it will not save any time right?            CHECK (figured out below mentioned was better)
+not if there are only two or three styles, then you can 
+
+style named > project_summary_text_light_style                                                                                                                                                  CHECK
+change in color should be in the variable. 
+
+project_summary_heading en dan dark of light daarop toepassen                                                                                                                                   CHECK
+
+*normal text could also just be dark!
+
+-make a better blender visualization than Bart made, with a gif animation
+a slim bar of light turning into a wide headlight bar
+
+-apply the giphy link
+
+- make all images a somewhat wide format, or add another sizing for smaller images, or rectangular ones that fit into a wide image format
+
+-change z index for the navigation arrow to work.                                                                                                                                               CHECK
+
+-make the projects button switch according to the preview image it is on, when preview is on project 2 the button should go to project 2 not to the main position of the projects page.         CHECK
+verander hiervoor de navigatie van de preview positie naar een systeem zoals op de oude website, met #page_position ofzo. hiermee kan ik dan ook misschien zorgen dan die op het teruggaan 
+van "on_return" de positie van de preview page behoudt, waardoor als je terug gaat van pagina project 2 naar projects dat je je dan weer terug komt op die positie. 
+            <a class="nav_projects_style nav_text" href="index.html#project_02_position">Projects</a>
+zoals dit 
+
+-zorg dat je niet kan scollen op de preview pagina
+->bijna gelukt, haal de kleine marge van scrolll die er nog is eruit
+
+-ook een triangle naar boven gericht voor het naar boven scrollen van de previews
+
+-de hover van de triangle moet ervoor zorgen dat de vorm  vergroot en de pointer moet ook zichtbaar zijn. 
+
+-maak de namen en plaatsen waar de nav en page styling elementen zijn opgeslagen minder verwarrend.
+-start de @medis-size toepassing dan ook direct
+
+* onthoudt dat de manier dat de previews nu gestacked zijn is dat de z-index van alle preview elementen class een zindex hebben van -1 en de active preview een z index heeft van 0 en de
+opacity van 0 naar 1 gaat. Het script swapt va previews. zie code hier onder.
+
+.preview {
+    //just for te identification of the div for the slideshow
+    // width: 100%;
+    // height: 100%;
+    // opacity: 0;
+    // position: absolute;
+    // transition-delay: 3s;
+    // z-index: 1;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.active {
+    opacity: 1;
+    z-index: 0;
+}
+
+-convert and compress images for skadis en de linn. vindt hier een programma voor, voeg dan ook direct de previews toe. In principe hoeft de js niet aangepast te worden dus. 
+
+-ga na welke classes nog nodig zijn op de hoofdpagina, gewoon 1 voor 1 afgaan vooral de navbar styling is nu heel verwarrend
+
+-verander text styling naar verticaal voor telefoon formaat.

@@ -5,101 +5,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="project_02.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="navigation_elements.css">
-    <link rel="stylesheet" href="image_elements.css">
-    <link rel="stylesheet" href="text_elements.css">
-    <!-- <link rel="stylesheet" href="about.css"> -->
+    <title>project_02</title>
+    <meta name="description"
+        content="Welcome to an overview of my projects. I am an industrial designer that focusses on realization of concepts. My expertise areas are CAD modeling, electronic prototyping, programming and exploratory sketching">
+    <link rel="stylesheet" href="/styles/text_elements.css">
+    <link rel="stylesheet" href="/styles/image_elements.css">
+    <link rel="stylesheet" href="/styles/navigation_elements.css">
+    <link rel="stylesheet" href="/styles/page_elements.css">
+    <script src="/scripts/Custom_script.js"></script>
 </head>
 
-<body>
+<body class="body_style_project_pages dark_body_background">
 
-    <div class='textbox_p02_image'>
-        <div class="text_container_ea">
-            <div class="big_header_style_ea" style="margin-top: 10%">
-                Skadiskaduskala
-            </div>
-            <div class="big_text_style_ea" style="margin-top: 1%; width: 100%;">
-                This is the explination and download page to my DIY version of the Ikea Skadis peg board.
-            </div>
-            <div class="text_style_large_ea" style="float: left; position:relative; margin-top: 3%">
-                The top image shows the full assmebly of the skadiskaduskala. To produce the the skadis board yourself
-                you will need 4mm MDF (5mm would be ideal but it's not commonly available). I took the closest thickness
-                I could get to the real thing so I can buy the ikea modules or 3d print modules from thingyverse for
-                this system. It's good to mention that some of them will have a somewhat loose fit, which I don't mind.
-                The plate needs to be 80cm x 60cm to lasercut my file. If you want to adapt these dimensions of the board
-                file to your liking you can edit the solidworks file I added. Or search online for the spacing between
-                the holes for the ikea board so you can make it yourself too. On the image you can see the way I attach
-                the board to the wall as a full assembly.
-                <br />
-                <br />
-                The next image shows the rectangular wall mount block I designed to create space between the wall and
-                the board. For aesthetic reasons and to make sure the modules from ikea and the thingyverse fit. these
-                blocks can be 3d printed with PLA or a material of your liking. The top hole is meant to fit a specific
-                metal M4 insert that I will link to in the parts list. You can also adapt this file to your liking If
-                you want to try to 3D print threading or want another insert size. Although I suggest to just get the M4
-                inserts. The editable body is in the same part file as the Skadis board. The metal insert is easy to
-                melt into the PLA with a soldering iron with a round tip. The bottom slit is there for the screw that
-                goes into the plug and the wall. I used quite a small screw and there was little margin for a bigger
-                one. So be careful you have the right screw. The slot has space for a screw head diameter of 8mm. It's a
-                slot so there is a possibility to adjust if the drilling wasn't completely straight. However I haven't
-                used this feature since the drilling was spot on so be careful not to completely rely on that feature.
-                <br />
-                <br />
-                The last image shows the bottom spacer which will not need to be attached to the wall but just to the
-                bottom of the board so it hangs parallel to the wall. Here I also used the same M4 insert.
-            </div>
+    <div class="main_container">
+        <div class="nav_bar_container nav_bar_dark">
+            <a class="nav_projects_style nav_text" href="index.html">Projects</a>
+            <a class=" nav_about_style nav_text" href="/about.html">About</a>
+            <a class="nav_media_style nav_text" href="/media.html">Media</a>
         </div>
 
-        <div class="p02_image_container" style="position:absolute;  top:2%; right: 5%;">
-            <img src="images/skadiskaduskala/Full_assembly_explination.png" class="p02_image_2">
-            <img src="images/skadiskaduskala/Top_adapter_explination_V2.png" class="p02_image_2">
-            <img src="images/skadiskaduskala/Bottom_spacer_explination_V2.png" class="p02_image_2">
-        </div>
-    </div>
-
-    <div class="big_header_style" style=" font-size: 30px; margin-top: 2%">
-        Parts + links + price
-    </div>
-    <div class="text_style_large_v" style=" float: left; position:relative; margin-top: 0.5%">
-       Gamma, MDF 4mm,  € 4,49 
-       <br />
-       link: https://www.gamma.nl/assortiment/mdf-122x61cm-4mm/p/B340344 
-       <br />
-       <br />
-       Tinytronics, Inserts M4,  € 3,00 
-       <br />
-       link: https://www.tinytronics.nl/shop/nl/gereedschap-en-montage/installatie-en-montagemateriaal/draadinzetstukken/draadinzetstuk-m4-5.8mm-20-stuks
-    </div>
-
-
-    <div class="big_header_style" style="font-size: 30px; margin-top: 8%">
-        Download
-    </div>
-
-    <div class="text_style_large_v" style="width: 40%; margin-bottom: 0.5%">
-        Click the download button to download all neccessary files.
         <div>
-            <a href="/downloads/Skadiskaduskala.zip" download>
+            <div class="project_title_heading light">
+                SKADISkaduskala
+            </div>
+
+            <div class="subscript_text light">
+                2023
+                <br>
+                personal project
+            </div>
+
+            <div class="description_container">
+                <div class="description_container_vertical">
+                    <div class="project_summary_heading light">
+                        Summary
+                    </div>
+                    <div class="project_summary_text light">
+                        Skadiskaduskala is a personal project in which I made a DIY version of the popular peg board of
+                        IKEA. As a challenge to see if I could make this board myself with the production methods at
+                        hand. Using the tooling available at my workplace at the time. Also to save myself some money of
+                        course. Sinc IKEA sells these boards at 25 euros per baord while I felt I could make them way
+                        cheaper. Which was a must since I wanted to use four of them.
+                    </div>
+                </div>
+
+                <div class="description_container_vertical">
+                    <div class="roles_summary_heading light">
+                        Roles
+                    </div>
+                    <div class="roles_summary_text light">
+                        • CAD modeling
+                        <br>
+                        • product analysis
+                        <br>
+                        • Lasercutting
+                        <br>
+                        • 3d printing
+                    </div>
+                </div>
+
+            </div>
+
+            <div>
+                <div class="image_description_heading light extralarge_margin_top_image_element">
+                    The result
+                </div>
+                <div class="image_description_text light ">
+                    After a lot of measuring, modeling, lasercutting and 3d printing I was able to create boards that
+                    fit the small modules sold by IKEA.
+                </div>
+                <img src="images/Skadiskaduskala/IMG_20230326_133233_edit-min.webp" class="wide_image_element">
+
+                <div class="image_description_heading light extra_margin_top_image_element">
+                    Guide step 1
+                </div>
+                <div class="image_description_text light ">
+                    The image below shows the full assmebly of the skadiskaduskala. To produce the the skadis board
+                    yourself
+                    you will need 4mm MDF (5mm would be ideal but it's not commonly available). I took the closest
+                    thickness
+                    I could get to the real thing so I can buy the ikea modules or 3d print modules from thingyverse
+                    for
+                    this system. It's good to mention that some of them will have a somewhat loose fit, which I
+                    don't mind.
+                    The plate needs to be 80cm x 60cm to lasercut my file. If you want to adapt these dimensions of
+                    the board
+                    file to your liking you can edit the solidworks file I added. Or search online for the spacing
+                    between
+                    the holes for the ikea board so you can make it yourself too. On the image you can see the way I
+                    attach
+                    the board to the wall as a full assembly.
+                </div>
+                <img src="images/skadiskaduskala/Full_assembly_explination.webp" class="wide_image_element">
+                <div class="image_description_text light ">
+                    The next image shows the rectangular wall mount block I designed to create space between the
+                    wall and
+                    the board. For aesthetic reasons and to make sure the modules from ikea and the thingyverse fit.
+                    these
+                    blocks can be 3d printed with PLA or a material of your liking. The top hole is meant to fit a
+                    specific
+                    metal M4 insert that I will link to in the parts list. You can also adapt this file to your
+                    liking If
+                    you want to try to 3D print threading or want another insert size. Although I suggest to just
+                    get the M4
+                    inserts. The editable body is in the same part file as the Skadis board. The metal insert is
+                    easy to
+                    melt into the PLA with a soldering iron with a round tip. The bottom slit is there for the screw
+                    that
+                    goes into the plug and the wall. I used quite a small screw and there was little margin for a
+                    bigger
+                    one. So be careful you have the right screw. The slot has space for a screw head diameter of
+                    8mm. It's a
+                    slot so there is a possibility to adjust if the drilling wasn't completely straight. However I
+                    haven't
+                    used this feature since the drilling was spot on so be careful not to completely rely on that
+                    feature.
+                    <br />
+                    <br />
+                    The last image shows the bottom spacer which will not need to be attached to the wall but just
+                    to the
+                    bottom of the board so it hangs parallel to the wall. Here I also used the same M4 insert.
+                </div>
+            </div>
+
+
+            <div class="easater_egg_text">
+                This is just a sidequest you had to hide text as easter eggs which looks like a line
+            </div>
         </div>
-                <img src="/images/—Pngtree—file download icon_4719240.png" alt="Skadiskaduskala.zip"
-                    width="150" height="150">
-            </a>
-        </div>
-    </div>
-
-
-    <div class="about_navigation_title">
-        <!-- <span class="text_border" >Identity and vision </span> -->
-        <!-- Identity and vision -->
-    </div>
-
-    <div class="project_nav_style_about">
-        <a class="big_returnarrow_style_bottom" href="/index.html#project_03_preview">
-            > </a>
-        <!-- maybe if this element clicked go back to the preview of the website you were watching but then  -->
     </div>
 </body>
 

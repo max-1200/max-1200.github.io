@@ -1,0 +1,76 @@
+:root {
+    //--dark_background_color: rgb(0, 83, 91);
+    //below is darker
+    --dark_background_color: rgb(0, 37, 40);
+}
+
+.body_style {
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    border-style: none;
+    margin: none;
+    padding: none;
+}
+
+.body_style_project_pages {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.light_body_background {
+    background-color: white;
+}
+
+.dark_body_background {
+    background-color: var(--dark_background_color);
+}
+
+.main_container {
+    //border-style: dashed;
+
+    // margin-left: 4.166665%;
+    // margin-right: 4.166665%;
+    // margin-top: 4.166665%; //keep this because it looks good navbar at the top
+
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 6%;
+    position: relative;
+}
+
+.description_container {
+    display: flex;
+    flex-direction: row; /* align items horizontally */
+    align-items: start;
+}
+
+.extra_margin_about{
+    margin-top: 5.2%;
+}
+
+.description_container_vertical {
+    width: 50%;
+    //makes sure the two elements, project description and role description are equally divided before other styling is added
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_preview_container {
+    position: relative;
+    top: 0;
+    left:0;
+    margin-left: 0;
+    padding: 0;
+    border: none;
+    z-index: -1;
+}
+
+.ordering_container_preview {
+    position:absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
