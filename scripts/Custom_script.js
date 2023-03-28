@@ -126,6 +126,11 @@ function changeprojectbuttontext() {
 let slideIndex = 1;
 showSlides(slideIndex);
 
+function minusSlides(n) {
+  showSlides(slideIndex -= n);
+  changeprojectbuttontext();
+}
+
 function plusSlides(n) {
   showSlides(slideIndex += n);
   changeprojectbuttontext();

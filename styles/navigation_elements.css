@@ -39,71 +39,49 @@
   size: cover;
 }
 
-.triangle {
+.triangle_style_parent {
   position: fixed;
+  margin: 2%;
   top: 90%;
-  left: calc(50% - 1em);
-  background-color: black;
-  text-align: left;
-  transform: scale(0.1);
-  opacity: 0.8;
-  z-index: 2;
-  cursor: pointer;
-}
-
-.triangle:hover {
-  transform: scale(1.11); /* Increase the scale by 10% on hover */
-}
-
-.triangle:before,
-.triangle:after {
-  content: "";
-  position: absolute;
-  background-color: inherit;
-}
-
-.triangle,
-.triangle:before,
-.triangle:after {
-  width: 2em;
-  height: 2em;
-  border-top-right-radius: 50%;
-}
-
-.triangle {
-  transform: rotate(120deg) skewX(-30deg) scale(1, 0.866);
-}
-
-.triangle:before {
-  transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707) translate(0, -50%);
-}
-
-.triangle:after {
-  transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
-}
-
-.triangle_style {
-  top: 90%;
-  left: calc(50% - 25px);
+  left: 50%;
+  transform: translate(-180px, -50%);
   z-index: 10;
-  rotate: 60deg;
-  font-size: 50px;
+}
+
+.triangle_style_child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  scale: 0.15;
+}
+
+.triangle_style_down {
+  z-index: 10;
+  rotate: 180deg;
   color: black;
-  position: fixed;
   background: none;
   cursor: pointer;
   opacity: 0.8;
 }
 
-.triangle_style:hover {
-  top: 88%;
-  left: calc(50% - 40px);
+.triangle_style_down:hover {
   z-index: 10;
-  rotate: 60deg;
-  font-size: 80px;
+  rotate: 180deg;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.triangle_style_up {
+  z-index: 10;
   color: black;
-  position: fixed;
   background: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.triangle_style_up:hover {
+  z-index: 10;
   cursor: pointer;
   opacity: 0.8;
 }
@@ -155,13 +133,30 @@
   right: 200px;
 }
 
+@media only screen and (min-width: 1023px) and (max-width: 1500px) {
+  .nav_media_style {
+    right: 150px;
+  }
+  .triangle_style_parent {
+    transform: translate(-160px, -50%);
+    z-index: 10;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .nav_media_style {
     right: 150px;
+  }
+  .triangle_style_parent {
+    transform: translate(-150px, -50%);
+    z-index: 10;
   }
 }
 @media only screen and (max-width: 767px) {
   .nav_media_style {
     right: 80px;
+  }
+  .triangle_style_parent {
+    transform: translate(-145px, -50%);
+    z-index: 10;
   }
 }/*# sourceMappingURL=navigation_elements.css.map */

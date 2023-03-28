@@ -43,7 +43,7 @@
   padding-left: 0;
   text-decoration: none;
   font-family: "Bahnschrift", sans-serif;
-  font-size: 140px;
+  font-size: 120px;
 }
 
 .project_title_heading {
@@ -52,7 +52,7 @@
   padding-left: 0;
   text-decoration: none;
   font-family: "Bahnschrift", sans-serif;
-  font-size: 140px;
+  font-size: 100px;
 }
 
 .subscript_text {
@@ -127,10 +127,10 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .about_title_heading {
-    font-size: 100px;
+    font-size: 80px;
   }
   .project_title_heading {
-    font-size: 100px;
+    font-size: 80px;
   }
   .subscript_text {
     font-size: 14px;
@@ -172,10 +172,10 @@
     padding-bottom: 7px;
   }
   .about_title_heading {
-    font-size: 50px;
+    font-size: 40px;
   }
   .project_title_heading {
-    font-size: 50px;
+    font-size: 40px;
   }
   .subscript_text {
     font-size: 14px;
