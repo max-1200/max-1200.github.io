@@ -138,7 +138,7 @@
     right: 150px;
   }
   .triangle_style_parent {
-    transform: translate(-160px, -50%);
+    transform: translate(-162px, -50%);
     z-index: 10;
   }
 }
@@ -147,7 +147,7 @@
     right: 150px;
   }
   .triangle_style_parent {
-    transform: translate(-150px, -50%);
+    transform: translate(-163px, -50%);
     z-index: 10;
   }
 }
@@ -156,7 +156,7 @@
     right: 80px;
   }
   .triangle_style_parent {
-    transform: translate(-145px, -50%);
+    transform: translate(-152px, -50%);
     z-index: 10;
   }
 }/*# sourceMappingURL=navigation_elements.css.map */
