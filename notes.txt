@@ -139,4 +139,8 @@ opacity van 0 naar 1 gaat. Het script swapt va previews. zie code hier onder.
 
 -verander text styling naar verticaal voor telefoon formaat.                                                                                                                                    CHECK
 
--
+-fix positionering van preview afbeeldingen voor telefoons 
+
+-fix the images of the skadiskaduskala to proper blender renders
+
+-fix the reason the other browsers image button doesn't work.

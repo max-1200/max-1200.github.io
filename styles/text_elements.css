@@ -77,6 +77,15 @@
   text-align: justify;
 }
 
+.highlight_text {
+  margin-top: 4%;
+  font-family: arial;
+  font-size: 30px;
+  width: 100%;
+  /* margin-left: 10%; */
+  text-align: justify;
+}
+
 .roles_summary_heading {
   width: 70%;
   margin-left: 30%;
@@ -102,6 +111,7 @@
   font-family: arial;
   font-size: 22px;
   font-weight: bold;
+  margin-top: 4%;
 }
 
 .image_description_text {
@@ -153,6 +163,12 @@
   }
   .image_description_text {
     font-size: 14px;
+  }
+  .highlight_text {
+    font-size: 22px;
+    width: 100%;
+    /* margin-left: 10%; */
+    text-align: justify;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -208,5 +224,11 @@
   .image_description_text {
     width: 100%;
     font-size: 14px;
+  }
+  .highlight_text {
+    font-size: 20px;
+    width: 100%;
+    /* margin-left: 10%; */
+    text-align: justify;
   }
 }/*# sourceMappingURL=text_elements.css.map */
