@@ -98,9 +98,9 @@ zoals dit
 -zorg dat je niet kan scollen op de preview pagina
 ->bijna gelukt, haal de kleine marge van scrolll die er nog is eruit
 
--ook een triangle naar boven gericht voor het naar boven scrollen van de previews
+-ook een triangle naar boven gericht voor het naar boven scrollen van de previews                                                                                                               CHECK
 
--de hover van de triangle moet ervoor zorgen dat de vorm  vergroot en de pointer moet ook zichtbaar zijn. 
+-de hover van de triangle moet ervoor zorgen dat de vorm  vergroot en de pointer moet ook zichtbaar zijn.                                                                                       CHECK 
 
 -maak de namen en plaatsen waar de nav en page styling elementen zijn opgeslagen minder verwarrend.
 -start de @medis-size toepassing dan ook direct
@@ -133,7 +133,7 @@ opacity van 0 naar 1 gaat. Het script swapt va previews. zie code hier onder.
     z-index: 0;
 }
 
--convert and compress images for skadis en de linn. vindt hier een programma voor, voeg dan ook direct de previews toe. In principe hoeft de js niet aangepast te worden dus. 
+-convert and compress images for skadis en de lijn. vindt hier een programma voor, voeg dan ook direct de previews toe. In principe hoeft de js niet aangepast te worden dus. 
 
 -ga na welke classes nog nodig zijn op de hoofdpagina, gewoon 1 voor 1 afgaan vooral de navbar styling is nu heel verwarrend
 
@@ -144,3 +144,15 @@ opacity van 0 naar 1 gaat. Het script swapt va previews. zie code hier onder.
 -fix the images of the skadiskaduskala to proper blender renders
 
 -fix the reason the other browsers image button doesn't work.
+
+
+-fix styling of the video aesthetics of interaction
+
+-go onto skadis page
+
+-after finishing images start writing pieces for image descriptions, around 50 words. With exceptions (skadiskaduskala) adn fix the things I added to the comments I gave to 
+ the images
+
+less important:
+-make a two images next to eachother element for aesthetics
+-for phone screen size, picture in about should appear on the top , before the text
