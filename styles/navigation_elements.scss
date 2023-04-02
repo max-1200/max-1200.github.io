@@ -26,6 +26,8 @@
     z-index: 0;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+    //putting overflow here works  because the <a> element caused the overflow
+    overflow-y: hidden;
 }
 
 .active {

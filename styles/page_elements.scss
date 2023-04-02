@@ -65,14 +65,14 @@
     padding: 0;
     border: none;
     z-index: -1;
-}
 
 .ordering_container_preview {
     position:absolute;
-    overflow: hidden;
+    overflow-y: hidden;
     top: 0;
     left: 0;
     z-index: 1;
+    height: 100%;
 }
 
 .youtube_video_style{

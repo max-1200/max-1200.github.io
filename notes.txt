@@ -31,7 +31,7 @@ rethink the container styles, some won't be necessary anymore.
 
 *thought thing, button surrounding becomes lighter when hovered, because you are closer to the next step the lighter, a right mental model!!
 
--figure out the clusterfuck of the dropdonw list                                                                                                                                                CHECK
+-figure out the clusterfuck of the dropdown list                                                                                                                                                CHECK
 
 the problem with the hashtag has to do with the navbar or something in the html coding. doesn't happen to the empty media.html it was in the dropdown, now removed from bar
 works without doing it.
@@ -47,7 +47,7 @@ can be found, maybe with an arrow you can click to scroll from left to right. LA
 -make various color schemes especially a dark and a light one, maybe make the website adapt to user preference??? prb not 
 USE THE PUMA YELLOW.
 
--add the to the top arrow
+-add the to the top arrow                                                                                                                                                                       CHECK
 
 -figure out if there can be a variable for equalizing the margin at the top of the project title heading and the percentage of space between the body adn nav bar.
 something like convert percentage > pixels = margintop for class blablabla 
@@ -64,11 +64,11 @@ Without breaking anything add this code in page_elements.scss
     flex-direction: column;
 }
 
--solution for the rescaling at different media solutions, start doing that already for everything. DOING IT IN THE END WILL BE WORSE< BECAUSE OF RETHINKING HOW STUFF WORKED
+-solution for the rescaling at different media solutions, start doing that already for everything. DOING IT IN THE END WILL BE WORSE< BECAUSE OF RETHINKING HOW STUFF WORKED                    CHECK
 
--make a dark background for project 3 which can than be the standard for other pages where this works better too.
+-make a dark background for project 3 which can than be the standard for other pages where this works better too.                                                                               CHECK
 
--various top margins to make sure the image will always be just out of first view. 
+-various top margins to make sure the image will always be just out of first view.                                                                                                              CHECK
 
 -rethink if the background colors and text colors should not just be renamed for the project page. because then you can edit them easily, otherwise it will not save any time right?            CHECK (figured out below mentioned was better)
 not if there are only two or three styles, then you can 
@@ -83,7 +83,7 @@ project_summary_heading en dan dark of light daarop toepassen                   
 -make a better blender visualization than Bart made, with a gif animation
 a slim bar of light turning into a wide headlight bar
 
--apply the giphy link
+-apply the giphy link -> make a new blender render which is better
 
 - make all images a somewhat wide format, or add another sizing for smaller images, or rectangular ones that fit into a wide image format
 
@@ -95,8 +95,9 @@ van "on_return" de positie van de preview page behoudt, waardoor als je terug ga
             <a class="nav_projects_style nav_text" href="index.html#project_02_position">Projects</a>
 zoals dit 
 
--zorg dat je niet kan scollen op de preview pagina
-->bijna gelukt, haal de kleine marge van scrolll die er nog is eruit
+-zorg dat je niet kan scollen op de preview pagina                                                                                                                                              CHECK
+->bijna gelukt, haal de kleine marge van scrolll die er nog is eruit                                                                                                                            
+*applied the overflow hidden on the right element found out it was the <a> element after using the inspection 
 
 -ook een triangle naar boven gericht voor het naar boven scrollen van de previews                                                                                                               CHECK
 
@@ -141,14 +142,14 @@ opacity van 0 naar 1 gaat. Het script swapt va previews. zie code hier onder.
 
 -fix positionering van preview afbeeldingen voor telefoons 
 
--fix the images of the skadiskaduskala to proper blender renders
+-fix the images of the skadiskaduskala to proper blender renders                                                                                                                                CHECK
 
--fix the reason the other browsers image button doesn't work.
+-fix the reason the other browsers image button doesn't work.                                                                                                                                   CHECK
 
 
--fix styling of the video aesthetics of interaction
+-fix styling of the video aesthetics of interaction                                                                                                                                             CHECK
 
--go onto skadis page
+-go onto skadis page                                                                                                                                                                            CHECK
 
 -after finishing images start writing pieces for image descriptions, around 50 words. With exceptions (skadiskaduskala) adn fix the things I added to the comments I gave to 
  the images
@@ -156,3 +157,7 @@ opacity van 0 naar 1 gaat. Het script swapt va previews. zie code hier onder.
 less important:
 -make a two images next to eachother element for aesthetics
 -for phone screen size, picture in about should appear on the top , before the text
+
+-Add image description text for all pages 
+
+-add skadis download and pricing

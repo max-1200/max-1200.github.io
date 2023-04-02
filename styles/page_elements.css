@@ -56,6 +56,8 @@
   padding: 0;
   border: none;
   z-index: -1;
+  height: 100%;
+  overflow: hidden;
 }
 
 .ordering_container_preview {
