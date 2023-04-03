@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Bahnschrift";
-  src: url(fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF) format("truetype");
+  src: url("fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF") format("truetype");
+  src: url("fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.woff") format("woff");
   /*importing the bahnschrift light from the folder*/
 }
 :root {

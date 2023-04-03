@@ -161,3 +161,8 @@ less important:
 -Add image description text for all pages 
 
 -add skadis download and pricing
+
+-font will not load
+
+-make a sitemap for google, also figure out how to be visible on google, adding descriptions to every page in the html?
+remember the google search: hwo to find all subpages of a website

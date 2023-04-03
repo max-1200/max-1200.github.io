@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Bahnschrift";
-  src: url(fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF) format("truetype");
+  src: url("fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF") format("truetype");
+  src: url("fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.woff") format("woff");
   /*importing the bahnschrift light from the folder*/
 }
 :root {
@@ -12,8 +13,8 @@
 
 .nav_text {
   text-decoration: none;
-  font-family: "Bahnschrift", sans-serif;
-  font-weight: 200;
+  font-family: arial;
+  font-weight: 400;
   font-style: bold;
   font-size: 25px;
   color: rgb(165, 164, 164);
@@ -42,7 +43,7 @@
   margin-left: 0;
   padding-left: 0;
   text-decoration: none;
-  font-family: "Bahnschrift", sans-serif;
+  font-family: "Bahnschrift";
   font-size: 120px;
 }
 
@@ -51,7 +52,7 @@
   margin-left: 0;
   padding-left: 0;
   text-decoration: none;
-  font-family: "Bahnschrift", sans-serif;
+  font-family: "Bahnschrift";
   font-size: 100px;
 }
 
@@ -174,7 +175,7 @@
 @media only screen and (max-width: 767px) {
   .nav_text {
     font-family: arial;
-    font-weight: 200;
+    font-weight: 500;
     font-style: bold;
     font-size: 18px;
     padding-left: 10px;
@@ -192,6 +193,8 @@
     font-size: 40px;
   }
   .project_title_heading {
+    font-family: arial;
+    font-weight: 400;
     font-size: 40px;
   }
   .subscript_text {
