@@ -41,7 +41,7 @@
     position: relative;
     z-index: 3; //makes sure the image is also clickable in in chrome and edge, at first it wasn't
     width: 100%;
-    height: 100vh;
+    height: 100%;
     // object-position: 0px -200px;
     object-fit: cover; //ensures the object does not stretchto fit the div but crops in
     padding: 0;
