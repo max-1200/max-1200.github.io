@@ -99,19 +99,19 @@ function changeprojectbuttontext() {
 
 
   if (pbap_class.length > 0) {
-    projects_nav.textContent = "Project Bits and pieces";
-    projects_nav.href = "/project_bits_and_pieces.html";
+    projects_nav.textContent = "Bits and pieces";
+    projects_nav.href = "/Bits_and_pieces.html";
   }
 
 
 
   if (paoi_class.length > 0) {
-    projects_nav.textContent = "Aesthetics of interaction";
+    projects_nav.textContent = "AoI";
     projects_nav.href = "/aesthetics_of_interaction.html";
   }
 
   if (psks_class.length > 0) {
-    projects_nav.textContent = "skadiskaduskala";
+    projects_nav.textContent = "Skadiskaduskala";
     projects_nav.href = "/skadiskaduskala.html";
   }
 

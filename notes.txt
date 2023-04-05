@@ -162,7 +162,19 @@ less important:
 
 -add skadis download and pricing
 
--font will not load
+-font will not load                                                                                                                                                                             CHECK           
 
 -make a sitemap for google, also figure out how to be visible on google, adding descriptions to every page in the html?
 remember the google search: hwo to find all subpages of a website
+
+-nav alignment seems to be wrong now
+
+-add final prototype pictures for projct 02 
+
+-make the new blender for project 03 and make a animation out of it
+
+-add source subscript style, maybe the same as the susbscript style but then italic
+
+-a better image for the mindmap/flowchart for bits and pieces
+
+-add the mdia page, make it also a skecthbook page, this will be weird. maybe add the media to the about.
