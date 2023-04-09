@@ -59,7 +59,7 @@
 
 .triangle_style_down {
   z-index: 10;
-  rotate: 180deg;
+  transform: rotate(180deg);
   color: black;
   background: none;
   cursor: pointer;
@@ -69,9 +69,6 @@
 
 .triangle_style_down:hover {
   z-index: 10;
-  rotate: 180deg;
-  cursor: pointer;
-  opacity: 0.8;
   scale: 1.2;
 }
 
@@ -101,11 +98,11 @@
 }
 
 .ordering_container_nav {
-  width: 88%;
+  width: 84%;
   top: 0px;
   left: 0px;
-  margin-left: 6%;
-  margin-right: 6%;
+  margin-left: 8%;
+  margin-right: 8%;
   margin-top: 6%;
   position: absolute;
   z-index: 2;

@@ -87,7 +87,9 @@
 
 .triangle_style_down {
     z-index: 10;
-    rotate: 180deg;
+    //rotate: 180deg;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
     color: black;
     //position: fixed;
     background: none;
@@ -100,9 +102,9 @@
 
 .triangle_style_down:hover {
     z-index: 10;
-    rotate: 180deg;
-    cursor: pointer;
-    opacity: 0.8;
+    //rotate: 180deg;
+    //cursor: pointer;
+    //opacity: 0.8;
     //transform: translate(-50%, -50%);
     scale: 1.2;
 }
@@ -139,12 +141,13 @@
 }
 
 .ordering_container_nav {
-    width: 88%;
+    //this might be the reason the triangle does not center out.
+    width: 84%;
     //height: 100%;
     top: 0px;
     left: 0px;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 8%;
+    margin-right: 8%;
     margin-top: 6%;
     position: absolute;
     z-index: 2;

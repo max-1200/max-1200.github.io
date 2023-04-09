@@ -178,3 +178,7 @@ remember the google search: hwo to find all subpages of a website
 -a better image for the mindmap/flowchart for bits and pieces
 
 -add the mdia page, make it also a skecthbook page, this will be weird. maybe add the media to the about.
+
+-Make the pic on the about page show before the text
+
+-the nav triangle weird scaling might have to do with the ordering_preview thing
