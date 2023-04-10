@@ -107,7 +107,7 @@ function changeprojectbuttontext() {
 
   if (paoi_class.length > 0) {
     projects_nav.textContent = "AoI";
-    projects_nav.href = "/aesthetics_of_interaction.html";
+    projects_nav.href = "/Aesthetics_of_interaction.html";
   }
 
   if (psks_class.length > 0) {
