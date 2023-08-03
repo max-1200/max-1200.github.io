@@ -40,11 +40,19 @@
     position: relative;
 }
 
-.description_container {
+.description_container_wrapper {
     display: flex;
     flex-direction: row; /* align items horizontally */
-    align-items: start;
+    //align-items: start;
+    flex-wrap: wrap;
 }
+
+// .flex_item_1 {
+//     order: 1;
+// }
+// .flex_item_2 {
+//     order: 2;
+// }
 
 .extra_margin_about {
     margin-top: 5.2%;
@@ -53,8 +61,8 @@
 .description_container_vertical {
     width: 50%;
     //makes sure the two elements, project description and role description are equally divided before other styling is added
-    display: flex;
-    flex-direction: column;
+    //display: flex;
+    //flex-direction: column;
 }
 
 .nav_preview_container {
@@ -90,13 +98,25 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .description_container {
-        display: block;
+    .description_container_wrapper {
+        flex-direction: column;
+        //The flex container needs to be able to swap the order of the items in html. This means that they need seperate classes.
     }
+
+    // .flex_item_1 {
+    //     order: 2;
+    // }
+    // .flex_item_2 {
+    //     order: 1;
+    // }
 
     .description_container_vertical {
         width: 100%;
         display: block;
         //makes sure the two elements, project description and role description are equally divided before other styling is added
+    }
+
+    .do_not_display {
+        display: none;
     }
 }

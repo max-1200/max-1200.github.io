@@ -32,10 +32,10 @@
   position: relative;
 }
 
-.description_container {
+.description_container_wrapper {
   display: flex;
   flex-direction: row; /* align items horizontally */
-  align-items: start;
+  flex-wrap: wrap;
 }
 
 .extra_margin_about {
@@ -44,8 +44,6 @@
 
 .description_container_vertical {
   width: 50%;
-  display: flex;
-  flex-direction: column;
 }
 
 .nav_preview_container {
@@ -77,11 +75,14 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .description_container {
-    display: block;
+  .description_container_wrapper {
+    flex-direction: column;
   }
   .description_container_vertical {
     width: 100%;
     display: block;
+  }
+  .do_not_display {
+    display: none;
   }
 }/*# sourceMappingURL=page_elements.css.map */
