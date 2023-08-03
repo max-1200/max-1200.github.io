@@ -32,10 +32,10 @@
   position: relative;
 }
 
-.description_container_wrapper {
+.description_container {
   display: flex;
   flex-direction: row; /* align items horizontally */
-  flex-wrap: wrap;
+  align-items: start;
 }
 
 .extra_margin_about {
@@ -75,7 +75,8 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .description_container_wrapper {
+  .description_container {
+    display: block;
     flex-direction: column;
   }
   .description_container_vertical {
