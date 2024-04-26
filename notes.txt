@@ -182,3 +182,5 @@ remember the google search: hwo to find all subpages of a website
 -Make the pic on the about page show before the text
 
 -the nav triangle weird scaling might have to do with the ordering_preview thing
+
+Maybe change the font on the renders to be like the website

@@ -49,6 +49,7 @@ let peco = null;
 let pbap = null;
 let paoi = null;
 let psks = null;
+let pnthg = null;
 let projects_nav = null;
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -60,6 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
   pbap = document.getElementById("project_bits_and_pieces_preview");
   paoi = document.getElementById("aesthetics_of_interaction_preview");
   psks = document.getElementById("skadiskaduskala_preview");
+  pnthg = document.getElementById("project_nothing_preview");
   //console.log(p02_class);
 
 });
@@ -77,7 +79,7 @@ function changeprojectbuttontext() {
   var pbap_class = pbap.getElementsByClassName("preview active");
   var paoi_class = paoi.getElementsByClassName("preview active");
   var psks_class = psks.getElementsByClassName("preview active");
-
+  var pnthg_class = pnthg.getElementsByClassName("preview active");
 
   if (p02_class.length > 0) {
     projects_nav.textContent = "Project 02";
@@ -89,21 +91,15 @@ function changeprojectbuttontext() {
     projects_nav.href = "/project_03.html";
   }
 
-
-
   if (peco_class.length > 0) {
     projects_nav.textContent = "TUecomotive";
     projects_nav.href = "/TUecomotive.html";
   }
 
-
-
   if (pbap_class.length > 0) {
     projects_nav.textContent = "Bits and pieces";
     projects_nav.href = "/Bits_and_pieces.html";
   }
-
-
 
   if (paoi_class.length > 0) {
     projects_nav.textContent = "AoI";
@@ -115,8 +111,10 @@ function changeprojectbuttontext() {
     projects_nav.href = "/skadiskaduskala.html";
   }
 
-
-
+  if (pnthg_class.length > 0) {
+    projects_nav.textContent = "Project Nothing";
+    projects_nav.href = "/project_nothing.html";
+  }
 
 }
 
