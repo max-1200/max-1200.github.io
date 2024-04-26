@@ -2,7 +2,18 @@
     font-family: 'Bahnschrift';
     src: url("fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF") format("truetype");
     src: url("fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.woff") format('woff');
+    
     /*importing the bahnschrift light from the folder*/
+}
+
+@font-face { 
+    font-family: 'Helvetica';
+    src: url("fonts/Helvetica/Helvetica.ttf") format("truetype");
+}
+
+@font-face { 
+    font-family: 'Helvetica_Bold';
+    src: url("fonts/Helvetica/Helvetica-Bold.ttf") format("truetype");
 }
 
 :root {
@@ -15,7 +26,7 @@
 }
 .nav_text {
     text-decoration: none;
-    font-family: arial;
+    font-family: "Helvetica";
     font-weight: 400;
     // font-family: Arial;
     font-style: bold;
@@ -48,9 +59,9 @@
     margin-left: 0;
     padding-left: 0;
     text-decoration: none;
-    font-family: 'Bahnschrift';
+    font-family: "Helvetica_Bold";
     //font-weight: bold;
-    font-size: 120px;
+    font-size: 108px;
     //color: rgba(255, 184, 43, 1);
 }
 
@@ -59,7 +70,7 @@
     margin-left: 0;
     padding-left: 0;
     text-decoration: none;
-    font-family:'Bahnschrift';
+    font-family:"Helvetica_Bold";
     //font-weight: bold;
     font-size: 100px;
     //color: rgba(255, 184, 43, 1);
@@ -67,7 +78,7 @@
 
 .subscript_text {
     margin-top: 2%;
-    font-family: arial;
+    font-family: "Helvetica";
     font-size: 20px;
 }
 
@@ -75,7 +86,7 @@
 .project_summary_heading {
     width: 100%;
     margin-top: 4%;
-    font-family: arial;
+    font-family: "Helvetica";
     font-size: 22px;
     font-weight: bold;
     
@@ -84,7 +95,7 @@
 .project_summary_text {
     width: 100%;
     margin-top: 0.5%;
-    font-family: arial;
+    font-family: "Helvetica";
     font-size:20px;
     text-align:justify;
     //text-align: left;
@@ -93,7 +104,7 @@
 
 .highlight_text{
     margin-top: 4%;
-    font-family: arial;
+    font-family: "Helvetica";
     font-size: 30px;
     width: 100%;
     /* margin-left: 10%; */
@@ -106,7 +117,7 @@
     text-align:left;
     left: 0%;
     margin-top: 4%;
-    font-family: arial;
+    font-family: "Helvetica";
     font-size: 22px;
     font-weight: bold;
 }
@@ -117,14 +128,14 @@
     margin-left: 30%;
     text-align:left;
     left: 0%;
-    font-family: arial;
+    font-family: "Helvetica";
     font-size: 20px;
 }
 
 .image_description_heading {
     width: 100%;
     //margin-bottom: 0.5%;
-    font-family: arial;
+    font-family: "Helvetica";
     font-size: 22px;
     font-weight: bold;
     margin-top: 4%;
@@ -135,7 +146,7 @@
     width:50%;
     //margin-top: 0.5%;
     //margin-bottom: 5%;
-    font-family: arial;
+    font-family: "Helvetica";
     font-size:20px;
     //text-align:justify;
     text-align: justify;
@@ -143,7 +154,7 @@
 
 .easater_egg_text {
     margin-top: 2%;
-    font-family: arial;
+    font-family: "Helvetica";
     font-size: 3px;
 }
 
@@ -213,7 +224,7 @@
 @media only screen and (max-width: 767px) {
 
     .nav_text {
-        font-family: arial;
+        font-family: "Helvetica";
         font-weight: 500;
         font-style: bold;
         font-size: 18px;
@@ -239,7 +250,7 @@
     }
 
     .project_title_heading {
-        font-family: arial;
+        font-family: "Helvetica";
         font-weight: 400;
         font-size: 40px;
         // object-fit: contain;
